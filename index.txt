@@ -1,6 +1,6 @@
-====================
-Jam.py documentation
-====================
+=======================
+Jam.py V7 documentation
+=======================
 
 Introduction
 =============
@@ -57,7 +57,7 @@ Or visit the
 
 To download this document as a single PDF, please visit:
 
-https://jampy-docs.readthedocs.io/_/downloads/en/latest/pdf/
+https://jampy-docs-v7.readthedocs.io/_/downloads/en/latest/pdf/
 
 The PDF is built instantly after every commit into the repository. Hence, some data on this site might be older than the PDF.  
 
