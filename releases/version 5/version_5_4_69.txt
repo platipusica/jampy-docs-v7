@@ -60,7 +60,7 @@ Application builder:
 * a link to the form-related documentation page has been added to the 
   application Builder form headers
   
-Documetation:
+Documentation:
 
 * search bug fixed
 

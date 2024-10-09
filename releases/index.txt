@@ -10,4 +10,5 @@ Release notes
    version_3
    version_4/index
    version 5/index
+   version_7/index
    roadmap

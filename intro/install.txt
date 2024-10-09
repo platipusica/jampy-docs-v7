@@ -51,24 +51,16 @@ This is the recommended way to install Jam.py.
    
    .. code-block:: console
    
-    sudo pip install jam.py 
+    sudo pip install jam.py-v7
     
    at the shell prompt. 
 
-   For a forked Jam.py, use: 
-   
-   .. code-block:: console
-   
-    sudo pip install jam.py-v5 
 
    If you're using Windows, start a command shell with administrator privileges 
    and run the command::
 
-    ...\> python -m pip install jam.py
+    ...\> python -m pip install jam.py-v7
 
-   For a forked Jam.py with the latest patches, use:: 
-   
-    ...\> python -m pip install jam.py-v5
 
    This will install Jam.py in your Python installation's ``site-packages`` directory.
 

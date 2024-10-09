@@ -79,12 +79,8 @@ Jam.py can be installed easily using ``pip`` within your virtual environment.
 In the command prompt, ensure your virtual environment is active, and execute
 the following command::
 
-    ...\> python -m pip install jam.py
+    ...\> python -m pip install jam.py-v7
 
-
-For a forked Jam.py with the latest patches, use:: 
-   
-    ...\> python -m pip install jam.py-v5
 
 
 This will download and install the latest Jam.py release.
