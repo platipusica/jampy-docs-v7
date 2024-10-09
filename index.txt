@@ -1,0 +1,119 @@
+====================
+Jam.py documentation
+====================
+
+Introduction
+=============
+
+
+Welcome to Jam.py! If you are new to Jam.py or no-code, low-code or more-code Web application development, this is the place to find some tips about the Jam.py. 
+
+.. admonition:: Objectives
+
+    Installing Python and Jam.py, choosing the database and the Web server and making Application Design decisions.
+
+.. admonition:: Audience
+
+    Web development enthusiasts or developers, with a limited or no experience with the Web development, or deployment.
+
+.. admonition:: Prerequisites
+
+    Some Python and JavaScript knowledge is recommended. The general knowledge about the Command Line prompt, and typing
+    the commands is required.
+
+
+How the documentation is organized
+==================================
+
+Here is an overview of how the documentation is organized, to
+help you find out where to look for specific things:
+
+:doc:`Getting started <intro/index>` topics describe how to install the framework, create 
+a new project, develop a web application step-by-step, and deploy it.
+
+:doc:`Programming guides<programming/index>`
+discuss key topics and concepts at a fairly high level and provide useful 
+background information and explanation.
+
+:doc:`Business application builder <admin/index>` is a detailed description of 
+the Application Builder used for application development and database 
+administration.
+
+:doc:`Class reference guides <refs/index>` contain technical reference for 
+Jam.py classes APIs.
+
+:doc:`FAQ <faq/index>` topics covers most frequently asked questions.
+
+:doc:`How to <how_to/index>` contains code examples that can be useful to quickly
+accomplish common tasks.
+
+Or visit the
+:doc:`table of contents <contents>` or even 
+
+`Jam.py Application Design Tips`_.
+
+.. _`Jam.py Application Design Tips`: https://jampy-application-design-tips.readthedocs.io/
+
+
+To download this document as a single PDF, please visit:
+
+https://jampy-docs.readthedocs.io/_/downloads/en/latest/pdf/
+
+The PDF is built instantly after every commit into the repository. Hence, some data on this site might be older than the PDF.  
+
+
+Video Tutorials
+===============
+
+If you are new to Jam.py, we highly recommend that you watch these video tutorials.
+
+It is recommended to watch these videos with a resolution of 1080p
+
+
+Tutorial 1 - `Working with files and images`_ 
+
+.. _`Working with files and images`: https://youtu.be/9rFXPyfN0Hg
+
+Tutorial 2 - `Working with details`_ 
+
+.. _`Working with details`: https://youtu.be/sbvxE-vEfsM
+
+Tutorial 3 - `Users, roles, audit trail/change history`_ 
+
+.. _`Users, roles, audit trail/change history`: https://youtu.be/60LiWZa0CpY
+
+Tutorial 4 - `Task tree`_ 
+
+.. _`Task tree`: https://youtu.be/hsSKqEh6vL4
+
+Tutorial 5 - Forms_
+
+.. _Forms: https://youtu.be/3sh-TSt52P0
+
+Tutorial 6 - `Form events`_
+ 
+.. _`Form events`: https://youtu.be/DY463lcv0R4
+
+Tutorial 7 - `Data aware controls`_
+ 
+.. _`Data aware controls`: https://youtu.be/fMTq8P4XdGw
+
+Tutorial 8 - `Datasets`_
+ 
+.. _`Datasets`: https://youtu.be/gHTYj7h9ljI
+
+Tutorial 9 - `Datasets Part 2`_
+ 
+.. _`Datasets Part 2`: https://youtu.be/1bUGmgBfrNw
+
+Tutorial 10 - `Fields and filters`_
+ 
+.. _`Fields and filters`: https://youtu.be/ahXqlZrA0fQ
+
+Tutorial 11 - `Client-server interactions`_
+ 
+.. _`Client-server interactions`: https://youtu.be/nLOhdA2FX0I
+
+Tutorial 12 - `Working with data on the server`_
+ 
+.. _`Working with data on the server`: https://youtu.be/dDK78lIjHHY

@@ -1,0 +1,12 @@
+===================
+Programming reports
+===================
+
+.. toctree::
+    :maxdepth: 1
+
+    templates
+    creating_report
+    report_parameters
+    client_side_programming
+    server_side_programming

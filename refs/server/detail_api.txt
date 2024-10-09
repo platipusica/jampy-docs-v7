@@ -1,0 +1,21 @@
+============
+Detail class
+============
+
+.. py:class:: Detail
+
+**domain**: server
+
+**language**: python
+
+Detail class inherits attributes, methods and events of 
+:doc:`Item class <item_api>`
+
+Attributes
+==========
+
+.. toctree::
+    :maxdepth: 1
+    :glob:
+    
+    detail/at_*

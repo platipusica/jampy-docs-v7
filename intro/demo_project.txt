@@ -1,0 +1,47 @@
+============
+Demo project
+============
+
+The framework has a full-fledged demo application that demonstrates programming 
+techniques used in the framework. 
+
+The demo is located in the demo folder of the Jam.py package downloaded from Github. There is also a stand alone or an 
+portable application for Windows x64 provided `here <https://github.com/platipusica/jampy-exe/releases/download/Pump/jampy_win_64.exe>`_.
+
+The portable application depends on LibreOffice for Reports and nothing more. Just run it and point the browser as per below.
+
+To start the demo application go to the demo folder and run *server.py* script.
+
+.. code-block:: console
+
+    $ ./server.py
+
+
+Open a Web browser and enter
+
+.. code-block:: console
+
+	127.0.0.1:8080
+
+in the address bar.
+
+To see the
+:doc:`Application builder </admin/index>`,
+open a new page in a browser and enter
+
+.. code-block:: console
+
+	127.0.0.1:8080/builder.html
+
+
+
+.. image:: _images/demo.png
+	:scale: 70 %
+	:align: center
+	:alt: Demo application
+
+
+.. image:: _images/demo_admin.png
+	:scale: 70 %
+	:align: center
+	:alt: Application builder of demo project

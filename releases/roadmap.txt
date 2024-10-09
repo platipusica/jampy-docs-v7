@@ -1,0 +1,59 @@
+==============
+Jam.py roadmap
+==============
+
+We plan to add the following features to Jam.py:
+
+* Support for actions that can be represented as buttons panels, navbars, pop-up 
+  menus and simplifying support for keyboard events, internalization and 
+  mobile devices.
+* Language support stage 2: internalization, support for multiple languages in 
+  the project.
+* Support for Bootstrap 4.  
+* Support for mobile devices.  
+* Development of report wizards, simplifying report creation
+* Rework of import/export utility: visual interface, control over merging of changes.
+* DBTree component revision and creation of documentation
+
+Andrew leaving Jam.py
+=====================
+
+The notes from a current Jam.py maintainer D. Babic: 
+
+Q: Since Andrew decided to leave this project due to the health reasons, the question is how will the roadmap reflect on the project?
+
+A: This is a good question. Andrew invested a lot of time and effort in Jam.py, and it has been great. My huge thanks for that. I would say the Jam.py v5 is very stable, production ready, and there will be minimal effort in the core code maintenance. The v7 on the other hand already reflected some of the above roadmap points, mainly BS4 and mobile devices. Which was a fantastic effort again by Andrew. The idea of report wizards was great, basically to eliminate the LibreOffice Calc dependency. The question here is how many users actually utilize the true power of reports? Not quite sure how many. Hence, for now, the LibreOffice will stay as is.
+
+Q: Would there be new Jam.py v5 releases at all?
+
+A: I'm not sure if Andrew will engage in the new v5 releases. The pull requests will be accommodated as per demand. However, the Jam.py
+will be released as a fork, which means the merge will be synced to the fork and then the new version will be built automatically by GitHub Actions as jam.py-v5
+
+Q: Why forking as jam.py-v5?
+
+A: Because of the GitHub Organisation. We need project maintainers, who can manage GitHub Actions and PyPi. Current Jam.py is owned by Andrew, which does not support this I'm afraid. Hence, new releases will exist on PyPi as jam.py-v5. Similar to this is a v7 fork as jam.py-v7, also available on PyPi.
+
+Q: So the v7 is also available?
+
+A: Yes it is. Currently, it is not production ready. However, if Andrew will be able to do some tweaks during the year 2024 or latter, it might be production ready. We will see.
+
+Q: Are the v7 Docs ready?
+
+A: We also decided to move Docs from the PyPi distribution, due to work in progress. We believe that the users very rarely built the Docs themselves, hence it would be better to point the users to any online documents repository, which is again built by the GitHub Actions. At the moment when v7 Docs are ready, we will publish them by Actions as well.
+
+Q: What is the Jam.py future?
+
+A: I see a very bright future with Jam.py! Ultimately, we would love to see Jam.py built as Windows App Store application by the GitHub Actions. This would enable a huge exposure to the Windows users and bring the very bright future. 
+
+Thanks for reading.
+
+
+
+
+
+
+
+
+
+
+
