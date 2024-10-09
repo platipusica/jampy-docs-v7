@@ -65,7 +65,8 @@ The PDF is built instantly after every commit into the repository. Hence, some d
 Video Tutorials
 ===============
 
-If you are new to Jam.py, we highly recommend that you watch these video tutorials.
+If you are new to Jam.py, we highly recommend that you watch these video tutorials. The videos are referring to
+Jam.py V5. There are minimal changes to the User interface compared to V7.
 
 It is recommended to watch these videos with a resolution of 1080p
 
