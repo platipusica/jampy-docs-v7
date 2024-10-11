@@ -2,7 +2,7 @@
 Version 7
 =========
 
-The version 7 is still under development.
+The version 7 is still under development. The biggest difference to V5 is routing support, and Bootstrap 5, enabling modern support for mobile devices.
 
 
 .. toctree::
