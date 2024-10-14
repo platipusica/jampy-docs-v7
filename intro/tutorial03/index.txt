@@ -5,13 +5,20 @@ Tutorial. Part 3. Details
 In this part of the tutorial we will explain how to work with details.
 
 
-Let's select the “Details” group in the project tree and and click the **New** 
-button at the bottom right corner of the page
+Let's select the "Task/Groups" item in the project tree and and click the **New** 
+button at the bottom right corner of the page:
 
 
 .. image:: /intro/_images/detail_group.png
 	:align: center
 	:alt: detail_group.png
+
+Name it "Details":
+
+.. image:: /intro/_images/detail_group_not_visible.png
+	:align: center
+	:alt: detail_group_not_visible.png
+
 
 In the
 :doc:`Item Editor </admin/items/item_editor_dialog>`

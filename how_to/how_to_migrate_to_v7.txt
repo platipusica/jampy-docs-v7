@@ -13,7 +13,7 @@ How to migrate v5 project to v7
 
 #. The next issue is templates. The Jam.py v7 is expecting the template.html file within the application folder. Due to Bootstrap 5 usage, some minor differences will arise with moving the existing templates from Jam.py v5 index.html file to template.html file.
 
+#. Foreign Key support is dropped at v7. This means if there are any Foreign Keys created at V5, there will be no option to manage it at V7.
 
 
-
-
+#. The Jam.py V7 introduced the calculated field. It is now possible to use the server side functions (SUM, COUNT, MIN, MAX, AVG), for the lookup to some other table field in a Master/Detail scenario. The Users might review the server side calculations code and replace it with a calculated fields, if appropriate.

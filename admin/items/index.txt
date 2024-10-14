@@ -60,9 +60,10 @@ The right panel of the page have following buttons:
   :doc:`Indices Dialog <indices_dialog>`
   to create and delete indices for the item database table.
 
-* **Foreign keys** - сlick this button to open the
-  :doc:`Foreign Keys Dialog <foreign_keys_dialog>`
-  to create foreign keys for the database table.
+..
+    * **Foreign keys** - сlick this button to open the
+      :doc:`Foreign Keys Dialog <foreign_keys_dialog>`
+      to create foreign keys for the database table.
 
 * **Reports** - сlick this button to open the
   :doc:`Reports Dialog <reports_dialog>`
@@ -89,5 +90,9 @@ The right panel of the page have following buttons:
    details_dialog
    order_dialog
    indices_dialog
-   foreign_keys_dialog
    reports_dialog
+   priviledges_dialog
+
+..
+   foreign_keys_dialog
+

@@ -42,7 +42,7 @@ when creating a new item.
 	:alt: Customers fields
 	
 Now, to save the changes, click the **OK** button. When saving, the Application 
-builder created the ``CRM_CUSTOMERS`` table in the ``ctm.sqlite`` database:
+builder created the ``CRM_CUSTOMERS`` table in the ``crm.sqlite`` database:
 
 
 .. image:: /intro/_images/customer_sql.png

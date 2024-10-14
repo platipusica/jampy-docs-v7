@@ -42,3 +42,6 @@ to perform some calculations:
   When multiple web applications are running in parallel processes, the background 
   function will be executed in each process. To prevent simultaneous execution 
   of this function, we use the lock method of the task.
+
+.. note::
+  The Jam.py V7 introduced the calculated field. It is now possible to use the server side functions (SUM, COUNT, MIN, MAX, AVG), for the lookup to some other table field in a Master/Detail scenario. The Users might review the server side calculations code and replace it with a calculated fields, if appropriate.
