@@ -9,7 +9,7 @@ For example, if field contains the following text:
 
 .. code-block:: html
 
-  "<span style='color: red'>USA</span>"
+  <span style='color: red'>Norway</span>
 
 when un-sanitized, it will be displayed in the table column as follows:
 
@@ -21,7 +21,7 @@ When the field text is sanitized, it is transformed to the following:
 
 .. code-block:: html
 
-  "&lt;span style='color: red'&gt;USA&lt;/span&gt;"
+  "&lt;span style='color: red'&gt;Norway&lt;/span&gt;"
 
 as you can see symbols '<' and '>' are replaced with '&lt;' and '&gt;'
 and the table column will be displayed this way: 

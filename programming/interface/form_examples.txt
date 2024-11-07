@@ -2,13 +2,13 @@
 Form examples
 =============
 
-Currently, the Framework uses `Bootstrap 2`_ with a simple and easy to use grid
+Currently, the Framework uses `Bootstrap 5`_ with a simple and easy to use grid
 system that uses 12 columns and allows you to create any kind of layouts.
 It is responsive and have many components, such as dropdowns, 
 dropdown buttons, button groups, navs, navbars, tabs, breadcrumbs, badges,
 progress bars, etc.
 
-.. _`Bootstrap 2`: http://getbootstrap.com/2.3.2/index.html
+.. _`Bootstrap 5`: https://getbootstrap.com/docs/5.0/
 
 Default edit form template
 --------------------------
@@ -20,15 +20,14 @@ have their own edit form template
 
     <div class="default-edit default-details-edit">
         <div class="form-body">
-            <div class="edit-body">
-            </div>
+            <div class="edit-body"></div>
         </div>
         <div class="form-footer">
-            <button type="button" id="ok-btn" class="btn btn-ary expanded-btn">
-                <i class="icon-ok"></i> OK<small class="muted">&nbsp;[Ctrl+Enter]</small>
+            <button type="button" id="ok-btn" class="btn btn-primary">
+                <i class="bi bi-check-square"></i> OK<small class="muted">&nbsp;[Ctrl+Enter]</small>
             </button>
-            <button type="button" id="cancel-btn" class="btn expanded-btn">
-                <i class="icon-remove"></i> Cancel
+            <button type="button" id="cancel-btn" class="btn btn-secondary">
+                <i class="bi bi-x-square"></i> Cancel
             </button>
         </div>
     </div>
@@ -300,53 +299,28 @@ as in previous example.
     <div class="customers-view">
         <div class="form-body">
             <div class="form-header">
-                <h4 id="form-title" class="header-text"><a href="#"></a></h4>                    
-                <h5 id="selected-div" class="header-text" style="display: none">
-                    <a id="selected-value" href="#"></a>
-                </h5>
-                <div class="btn-group">
-                    <a class="btn expanded-btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        Action
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a id="new-btn" href="#">
-                            <i class="icon-plus"></i> New<small class="muted">&nbsp;[Ctrl+Ins]</small>
-                        </a></li>
-                        <li><a id="edit-btn" href="#">
-                            <i class="icon-edit"></i> Edit
-                        </a></li>
-                        <li class="divider"></li>
-                        <li><a id="delete-btn" href="#">
-                            <i class="icon-trash"></i> Delete<small class="muted">&nbsp;[Ctrl+Del]</small>
-                        </a></li>                                    
-                    </ul>
-                </div>                            
-                <div id="report-btn" class="btn-group dropup">
-                    <a class="btn expanded-btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="icon-print"></i> Reports
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu bottom-up">
-                    </ul>
+                    <div id="action-btn" class="btn dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="bi bi-display"></i> 
+                            Action
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li id="new-btn"><a class="dropdown-item" href="#"><i class="bi-plus-square"></i> New<small class="muted">&nbsp;[Ctrl+Ins]</small></a></li>
+                            <li id="edit-btn"><a class="dropdown-item" href="#"><i class="bi-pencil-square"></i> Edit</a></li>
+                            <li id="delete-btn"><a class="dropdown-item" href="#"><i class="bi-trash"></i> Delete<small class="muted">&nbsp;[Ctrl+Del]</small></a></li>
+                        
+                        </ul>
+                        <p></p>
+                        <button id="email-btn" class="btn btn-secondary" type="button">
+                            <i class="bi-pencil-square"></i> Email
+                        </button>
+                        <p></p>
+                        <button id="print-btn" class="btn btn-secondary" type="button">
+                            <i class="bi bi-printer"></i> Print
+                        </button>
+                    </div>
+                <div class="view-table">
                 </div>
-                <button style="display: none" id="email-btn" class="btn expanded-btn" type="button">
-                    <i class="icon-pencil"></i> Send email
-                </button>                
-                <button style="display: none" id="print-btn" class="btn expanded-btn" type="button">
-                    <i class="icon-print"></i> Print
-                </button>                
-                <form id="search-form" class="form-inline pull-right">
-                    <label  class="control-label" for="search-input">Search by
-                        <span class="label" id="search-fieldname"></span>
-                    </label>
-                    <input id="search-input" type="text" class="input-medium search-query" autocomplete="off">
-                    <a id="search-field-info" href="#" tabindex="-1">
-                        <span class="badge">?</span>
-                    </a>                                
-                </form>
-            </div>
-            <div class="view-table">
             </div>
         </div>
     </div>

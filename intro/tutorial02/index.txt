@@ -78,7 +78,7 @@ key and double-click the image, after that the video will be displayed.
 Adding file field
 =================
 
-Now we add a field that will store an appendix file to the "Contacts" journal.
+Now we add a field that will store an attachment file to the "Contacts" journal.
 
 .. image:: /intro/_images/file_field.png
 	:align: center

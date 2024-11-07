@@ -1,6 +1,10 @@
-==========================================
+===========
+Deployment 
+===========
+
 Jam.py deployment with Apache and mod_wsgi
 ==========================================
+
 
 Once you’ve got ``mod_wsgi`` installed and activated, edit your Apache server’s 
 httpd.conf file and add the following. If you are using a version of Apache older 

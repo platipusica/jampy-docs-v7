@@ -3,13 +3,15 @@ Index.html
 ==========
 
 When user opens a Jam.py application in a Web browser, the browser first loads
-the *index.html* file. This file is located in the root directory of a project.
+the *index.html* file. This file is located in the root directory of a project
+and accessed/modified by click on ``index.html [F10]`` on :doc:`Task </admin/task>`  tree.
+
 
 .. image:: /admin/_images/index_html.png
 	:align: center
 	:alt: index.html
 	
-It is the usual html file containing links to **css** and **js** files, that 
+The html file contains links to **css** and **js** files, that 
 client application is using. The files that start with **jam** are located in 
 the *jam* folder of the Jam.py package directory on the server. 
 
@@ -29,8 +31,7 @@ For example
 
     <script src="static/js/Chart.min.js"></script>
 
-The *index.html* ``body`` tag have a ``div`` with class ``templates``, that 
-contains html templates of the project forms. See 
+For forms templates, please see 
 :doc:`Forms <forms>` 
 and
 :doc:`Form templates <form_templates>`.

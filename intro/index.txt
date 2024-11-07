@@ -14,5 +14,5 @@ develop a web application and deploy it.
    tutorial01/index
    tutorial02/index
    tutorial03/index
-   Deployment <deployment>
+   deployment
    

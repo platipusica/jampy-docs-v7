@@ -5,8 +5,8 @@ Code editor
 For every item of the project :doc:`task tree </programming/task_tree>` there 
 are two buttons in the upper-right corner of the
 :doc:`Application builder <index>`
-: **Client module** 
-and **Server module**.
+: ``Client module [F7]`` 
+and ``Server module[F8]``.
 
 
 .. image:: _images/item_btns.png

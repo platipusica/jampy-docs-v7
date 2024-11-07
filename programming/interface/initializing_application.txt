@@ -13,56 +13,62 @@ on click event handler to menu items using JQuery.
 
 .. code-block:: js
 
-  function on_page_loaded(task) {
-      
-      $("title").text(task.item_caption);
-      $("#title").text(task.item_caption);
-       
-      if (task.safe_mode) {
-          $("#user-info").text(task.user_info.role_name + ' ' + task.user_info.user_name);
-          $('#log-out')
-          .show() 
-          .click(function(e) {
-              e.preventDefault();
-              task.logout();
-          }); 
-      }
-      
-      if (task.full_width) {
-          $('#container').removeClass('container').addClass('container-fluid');
-      }
-      $('#container').show();
-      
-      task.create_menu($("#menu"), $("#content"), {view_first: true});
-  
-  } 
+    function on_page_loaded(task) { 
+        
+        $("title").text(task.item_caption);
+        $("#app-title").text(task.item_caption); 
+
+        if (task.small_font) {
+            $('html').css('font-size', '14px');
+        }
+        if (task.full_width) {
+            $('#container').removeClass('container').addClass('container-fluid');
+        }
+          
+        if (task.safe_mode) {
+            $("#user-info").text(task.user_info.role_name + ' ' + task.user_info.user_name);
+            $('#log-out')
+            .show() 
+            .click(function(e) {
+                e.preventDefault();
+                task.logout();
+            }); 
+        }
+
+        $('#container').show();
+
+        task.create_menu($("#menu"), $("#content"), {
+            splash_screen: '<h1 class="text-center">Jam.py Demo Application</h1>',
+            view_first: true
+        });
+
 
 This event handler uses JQuery to select elements from the 
 :doc:`index.html <index_html>` to set their attributes and assign events. 
 
 .. code-block:: html
 
-  <div id="container" class="container" style="display: none">
-      <div class="row-fluid">
-          <div class="span6">
-              <h3 id="title" class="muted"></h3>
-          </div>
-          <div class="span6 logging-info">
-              <span id="user-info"></span>
-              <a id="log-out" href="#" style="display: none">Log out</a>
-          </div>
-      </div>
-      <div class="container">        
-          <div id="taskmenu" class="navbar">        
-              <div class="navbar-inner">
-                  <ul id="menu" class="nav">
-                  </ul>
+        <div id="container" class="container" style="display: none">
+            <nav class="navbar navbar-expand-lg bg-light mb-2">
+                <div class="container-fluid">
+                    <span id="app-title" class="navbar-brand mb-0 h1"></span>
+                    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul id="menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <div class="d-flex pe-2 justify-content-end">
+                        <span id="user-info" class="navbar-text p-2"></span>
+                        <button id="log-out" class="btn btn-secondary" type="button" style="display: none"><i class="bi bi-box-arrow-right"></i></button>
+                    </div>
+                </div>
               </div>
-          </div>            
-      </div>
-      <div id="content">
-      </div>
-  </div>
+            </nav>
+            <div id="content">
+            </div>
+        </div>
+
 
 Finally, the 
 :doc:`create_menu </refs/client/task/m_create_menu>`
