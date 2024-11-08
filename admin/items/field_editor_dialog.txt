@@ -179,7 +179,7 @@ Calculation tab
   :doc:`Lookup field </programming/data/lookup_fields>`. For example, the Details table *invoice_table*, *tracks* field, 
   which is a lookup field to *Name* field on table *Tracks*.
 	
-* **Calc. field**  - specifies on which field the calculation if performing on.
+* **Calc. field**  - specifies on which field the calculation is performing on.
 
 * **Function**  - specifies the server side functions (SUM, COUNT, MIN, MAX, AVG).
 
