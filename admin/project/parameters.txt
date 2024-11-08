@@ -102,6 +102,9 @@ On the Interface tab, you can specify interface parameters of the project:
 * **Theme** - use this parameter to select the theme of the project from one of
   predefined themes
 
+* **Dcos Link** - use this parameter to specify the Docs location
+
+
 * **Small font** - if this button is checked, the default font size will be 12px,
   otherwise it is 14px
 

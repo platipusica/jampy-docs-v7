@@ -2,7 +2,7 @@
 Howto upgrade an already created project to a new version of jampy?
 ===================================================================
 
-To upgrade an existing project to a new package you must update the package.
+To upgrade an existing V7 project to a new package you must update the package.
 
 You can do it using pip.
 
@@ -11,14 +11,14 @@ command:
 
 .. code-block:: console
 
-  sudo pip install --upgrade jam.py
+  sudo pip install --upgrade jam.py-v7
 
 If you're using Windows, start a command shell with administrator privileges 
 and run the command 
 
 .. code-block:: console
 
-  pip install --upgrade jam.py
+  pip install --upgrade jam.py-v7
 
 
 

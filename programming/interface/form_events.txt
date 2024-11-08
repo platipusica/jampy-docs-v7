@@ -1,4 +1,4 @@
-===========
+/===========
 Form events
 ===========
 
@@ -127,7 +127,6 @@ This example explains the principle of form events usage.
 
 The order of triggering of events depends on the type of event.
 
-There are three type of
 
 The order in which events are generated depends on the type of event.
 

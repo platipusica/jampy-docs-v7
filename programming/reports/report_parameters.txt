@@ -3,7 +3,7 @@ Report parameters
 =================
 
 You can specify the parameters of the report. For example, the 
-**Customer purchases** report of the Demo project have three parameters.
+**Customer purchases** report of the Demo project has three parameters.
 
 .. image:: /programming/_images/parameters.png
 	:align: center
@@ -27,16 +27,36 @@ In the dialog box fill in:
   
 * **Type** - the data type of the parameter
 
-* **Visible** - the client application creates a form to specify the parameters 
-  before printing the report. If this checkbox is checked, the input element for 
-  this parameter will appear in the form
+* **Lookup item** - the item to select the parameter value from
+
+* **Lookup field** - the field in the lookup item
+
+* **Typeahead** - autocompletion/typeahead is enabled for the lookup field.
+
+* **Multiple selection** - Multiple selection is enabled.
+
+* **Select all enabled** - Select all is enabled.
+
+* **Lookup value list** - Lookup value list selection.
 
 * **Required** - if this checkbox is checked and **Visible** attribute is set, 
   the client application will require a users to specify the parameter value 
   before printing the report
 
-* **Align** - specifies how a value of the parameter will be aligned in the 
+* **Alignment** - specifies how a value of the parameter will be aligned in the 
   input element
+
+* **Placeholder** - use this attribute to specify the placeholder that will be 
+  displayed by the field input.
+
+* **Help** - if any text / html-message is specified, a question mark will be 
+  displayed to the right of the input, so when the user moves the mouse pointer 
+  over this mark, a pop-up window appears displaying this message.
+
+* **Visible** - the client application creates a form to specify the parameters 
+  before printing the report. If this checkbox is checked, the input element for 
+  this parameter will appear in the form
+
   
 You can create a lookup parameter, For example, the **Customer purchases** 
 report has a **Customer** parameter that can be selected from **Customers** 
