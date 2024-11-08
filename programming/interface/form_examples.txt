@@ -97,7 +97,7 @@ The edit form for **Albums** catalog looks as follows:
 Edit form template with tabs
 ----------------------------
 
-This example uses the Boostrap tabs:
+This example uses the Bootstrap tabs:
 
 .. code-block:: html
 
@@ -156,7 +156,7 @@ It creates input controls for panes, corresponding to tabs:
 Edit form template using grid layout
 ------------------------------------
 
-This example uses the Boostrap grid system:
+This example uses the Bootstrap grid system:
 
 .. code-block:: html
 

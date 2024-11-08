@@ -18,7 +18,7 @@ parameter.
 	:align: center
 	:alt: Report param
 
-In the dialog box fill in:
+The below can be specified:
 
 * **Caption** - the name of the parameter that appears to users
 
@@ -58,7 +58,7 @@ In the dialog box fill in:
   this parameter will appear in the form
 
   
-You can create a lookup parameter, For example, the **Customer purchases** 
+It it possible to create a lookup parameter. For example, the **Customer purchases** 
 report has a **Customer** parameter that can be selected from **Customers** 
 catalog:
 
@@ -66,7 +66,7 @@ catalog:
 	:align: center
 	:alt: Lookup parameter
 
-In this case you should specify 
+In this case we should specify:
 
 * **Lookup item** - the item to select the parameter value from
 
