@@ -61,7 +61,7 @@ import shlex
 # ones.
 
 #extensions = ['sphinx_rtd_theme']
-extensions = ['sphinx_sitemap', 'sphinx_copybutton', 'sphinxcontrib.jquery']
+extensions = []
 html_baseurl = 'https://jampyapplicationbuilder.com/docs/'
 
 
