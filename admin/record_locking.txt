@@ -18,24 +18,11 @@ the application warns the user and prohibits saving.
 
 This record locking mechanism is very easy to implement.
 
-To do so you need to create an item that will store record version.
+To do so create an table field that will store record version.
+The field type is ``integer``.
 
-Open 
-:doc:`project parameters <project/parameters>`
-and click the button to the right of the
-**Lock item** input:
 
-.. image:: _images/history_item.png
-	:align: center
-	:alt: History item
-	
-In the dialog that will appear click on the **Create lock item** button: 
-
-.. image:: _images/create_lock_item.png
-	:align: center
-	:alt: New history item	
-
-After that you must set **Edit lock** attribute in the
+After that we can set **Edit lock** attribute in the
 :doc:`Item Editor Dialog <items/item_editor_dialog>`:
 
 .. image:: _images/item_editor_dialog.png

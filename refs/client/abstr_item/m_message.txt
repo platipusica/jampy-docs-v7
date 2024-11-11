@@ -68,13 +68,13 @@ The following code will create a yes-no-cancel dialog:
         ' with <a href="http://chinookdatabase.codeplex.com/" target="_blank">Chinook Database</a>' +
         '<p>by Andrew Yushev</p>' +
         '<p>2015</p>',
-        {title: 'Jam.py framework', margin: 0, text_center: true, buttons: {"OK": undefined}, 
+        {title: 'Jam.py framework', margin: 0, text_center: true, buttons: {"Yes": undefined, "No": undefined, "Cancel": undefined}, 
             center_buttons: true}
     );
 
-the result of the code above will be:
+The result of the code above will be:
 
 .. image:: _images/message.png
 	:width: 400
 	:align: center
-	:alt: Message methos example
+	:alt: Message method example

@@ -52,4 +52,8 @@ right corner of an item edit form.
         return result;
     }
     
+The result of the code above will be:
 
+.. image:: _images/yes_no_cancel.png
+	:align: center
+	:alt: Message Yes, No, Cancel
