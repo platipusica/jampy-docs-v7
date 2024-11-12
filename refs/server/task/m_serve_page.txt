@@ -1,0 +1,29 @@
+==========
+serve_page
+==========
+
+.. py:method:: serve_page(self) 
+
+**domain**: server
+
+**language**: python
+
+**class** :doc:`Task class </refs/server/task_api>`
+
+Description
+===========
+
+Use ``serve_page`` to send a html page to to Client.
+
+
+Example
+=======
+
+.. code-block:: py
+
+	task.serve_page('index.html')
+
+See also
+========
+
+:doc:`redirect <m_redirect>`

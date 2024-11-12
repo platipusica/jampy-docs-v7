@@ -6,7 +6,11 @@ The **View Form Dialog**
 opens when a developer selects the item in the Application builder and clicks 
 the **View Form** button. 
 
-It has two tabs **Layout** and **Form**.
+It has two tabs **Layout** and **Form**, as well as button ``Desktop`` and ``device``.
+
+The button ``Desktop`` is a default and a ``device`` can be used for **tablet** and/or 
+**mobile phone** inclusion. Each option is independent to each other.
+
 
 Layout tab
 ==========

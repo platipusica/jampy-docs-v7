@@ -9,6 +9,7 @@ To do this, select the "Catalogs" group in the project tree and click the **New*
 button on the bottom right corner of the page
 
 .. image:: /intro/_images/catalogs.png
+	:scale: 50%
 	:align: center
 	:alt: Catalogs
 
@@ -20,6 +21,7 @@ will be used in code (Python or JS) to refer to this catalog. The name must be a
 valid Python identifier.
 
 .. image:: /intro/_images/customers_new.png
+	:scale: 50%
 	:align: center
 	:alt: New customers catalog
 
@@ -30,6 +32,7 @@ dialog appears. Type the caption and name of the
 and click the **OK** button.
 
 .. image:: /intro/_images/firstname.png
+	:scale: 50%
 	:align: center
 	:alt: New journal tasks
 
@@ -38,6 +41,7 @@ field, check the **Required** attribute. This requires that the field is set
 when creating a new item.
 
 .. image:: /intro/_images/customers_fields.png
+	:scale: 50%
 	:align: center
 	:alt: Customers fields
 	
@@ -46,6 +50,7 @@ builder created the ``CRM_CUSTOMERS`` table in the ``crm.sqlite`` database:
 
 
 .. image:: /intro/_images/customer_sql.png
+	:scale: 50%
 	:align: center
 	:alt: Table created
 
@@ -62,5 +67,6 @@ Then, click the **New** button to create a new customer.
 Fill in the dialog, then click the **OK** button:
 
 .. image:: /intro/_images/customers_refresh.png
+	:scale: 50%
 	:align: center
 	:alt: Customers page

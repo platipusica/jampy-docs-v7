@@ -2,7 +2,7 @@
 How to create registration form
 ===============================
 
-In this topic we'll assume that you have created a **Users** item from the 
+In this topic we'll assume that you have created a :doc:`users </how_to/authentication/how_to_authenticate_from_custom_users_table>` item from the 
 previous topic.
 
 Now we create a *register.html* file. 

@@ -13,6 +13,7 @@ using the **left** button, and change their priority using the **up** and **down
 buttons (higher priority on the top).
 
 .. image:: /intro/_images/order_dlg.png
+	:scale: 50%
 	:align: center
 	:alt: Contacts order
 
@@ -25,6 +26,7 @@ Click the **Indices** button to open
 and then click the **New** button and specify the index in a similar way:
 
 .. image:: /intro/_images/index_dlg.png
+	:scale: 50%
 	:align: center
 	:alt: New index
 

@@ -32,11 +32,11 @@ record when the user clicks the Yes button:
 
 .. code-block:: js
 
-                item.question('Delete record?',
-                    function() {
-                        item.delete();
-                    }
-                );
+    item.question('Delete record?',
+        function() {
+            item.delete();
+        }
+    );
     
 The result of the code above will be:
 

@@ -1,0 +1,67 @@
+========
+Routing
+========
+
+
+The Jam.py v7 introduced routing. As Jam.py v5 is a SPA (Single Page Application), there was no need for routing.
+On the other hand, there was a need to implement, for example, the User registration page with Jam.py v5.	
+
+The solution for this problem was similar to :doc:`creating a registration form </how_to/authentication/how_to_create_registration_form>`.
+
+As seen, the **register.html** file is using JavaScript AJAX code. Hence, any additional page would need a similar approach, if
+interacting with the database.
+
+In Jam.py v7, the solution is processing every request in the on_request event handler and defining a response on a valid request.
+
+This enables us to do custom login and registration forms, where custom errors can be created. For example: "User does not exist!", "Wrong password", etc.
+
+The new **login.html** page:
+
+
+.. image:: /admin/_images/custom_login_error.png
+	:align: center
+	:alt: Custom Login Form
+
+
+The new **register.html** page (no AJAX):
+
+.. image:: /admin/_images/register_form_v7.png
+	:align: center
+	:alt: Registration Form
+
+
+Routing code
+=============
+
+
+As mentioned, the ``on_request`` is used (no Python logic shown below to make it simple to read).
+
+The below code should exist on "Task/Server Module":
+
+.. code-block:: Python
+
+	def on_request(task, request):
+		parts = request.path.strip('/').split('/')
+		if not parts[0]:
+		    if task.logged_in(request):
+		        return task.serve_page('index.html')
+		    else:
+		        return task.redirect('/login.html')
+		elif parts[0] == 'login.html':
+					.
+					.
+		            return task.serve_page(login_path, login_params)
+					.
+					.
+
+		elif parts[0] == 'register.html':
+					.
+					.
+		            return task.serve_page('register.html', 
+					.
+					.
+
+		            return task.redirect('/login.html')
+
+
+

@@ -5,13 +5,18 @@ Edit Form Dialog
 The **Edit Fields Dialog** opens when a developer selects the item in the 
 Application builder and clicks the **Edit Form** button. 
 
-It has two tabs **Layout** and **Form**.
+It has two tabs **Layout** and **Form**, as well as button ``Desktop`` and ``device``.
+
+The button ``Desktop`` is a default and ``device`` can be used for **tablet** and/or 
+**mobile phone** inclusion. Each option is independent to each other.
+
 
 Layout tab
 ==========
 
 On the **Layout** tab, you can specify the fields that the user can edit, 
-their order, create tabs and bands for grouping field inputs.
+their order, create tabs and bands for grouping field inputs. 
+
 
 .. image:: /admin/_images/edit_form_layout.png
 	:align: center

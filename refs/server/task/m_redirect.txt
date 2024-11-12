@@ -1,0 +1,29 @@
+==========
+redirect
+==========
+
+.. py:method:: redirect(self) 
+
+**domain**: server
+
+**language**: python
+
+**class** :doc:`Task class </refs/server/task_api>`
+
+Description
+===========
+
+Use ``redirect`` to redirect a Client to html page.
+
+
+Example
+=======
+
+.. code-block:: py
+
+	task.redirect('/login.html')
+
+See also
+========
+
+:doc:`serve_page <m_serve_page>`

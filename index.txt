@@ -6,7 +6,7 @@ Introduction
 =============
 
 
-Welcome to Jam.py! If you are new to Jam.py or no-code, low-code or more-code Web application development, this is the place to find some tips about the Jam.py. 
+Welcome to Jam.py! If you are new to Jam.py or no-code, low-code or more-code Web application development, this is the place to find documentation about the Jam.py V7. 
 
 The biggest difference to Jam.py V5 is routing support and Bootstrap 5, enabling modern support for mobile devices.
 
