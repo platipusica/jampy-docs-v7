@@ -17,8 +17,7 @@ Use ``on_request`` to send a request to the server for processing.
 
 The ``task`` parameter is a reference to the 
 :doc:`task tree </programming/task_tree>`
-The ``request`` is a string that must starts with '/ext'
-There could be a list of parameters.
+
 
 Example
 =======
