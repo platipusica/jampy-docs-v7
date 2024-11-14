@@ -13,7 +13,7 @@ redirect
 Description
 ===========
 
-Using Werkzeug ``redirect`` to redirect a Client to html page. 
+Using Werkzeug ``redirect`` Object to redirect a Client to the target location. 
 
 
 Example
