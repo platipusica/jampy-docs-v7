@@ -70,6 +70,13 @@ Now on the project page we will have:
 	:scale: 50%
 	:align: center
 	:alt: image_edit.png
+
+
+See also
+========
+
+:doc:`accept string </admin/accept_string>`
+
 	
 Capturing image from camera
 ===========================
@@ -136,6 +143,8 @@ Now we can open a file in the browser by clicking on the open button.
 	:align: center
 	:alt: appendix_pdf_open.png
 
+
+
 .. note::
 
   Files and images are stored in the *static/files* folder on the server.
@@ -143,3 +152,9 @@ Now we can open a file in the browser by clicking on the open button.
   You can limit the size of files that can be uploaded to the server by
   setting **Max content length** attribute in the 
   :doc:`project parameters </admin/project/parameters>`.
+
+See also
+========
+
+:doc:`accept string </admin/accept_string>`
+

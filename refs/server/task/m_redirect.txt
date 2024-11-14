@@ -2,7 +2,7 @@
 redirect
 ==========
 
-.. py:method:: redirect(self) 
+.. py:method:: redirect(self, location, code=302, Response=None) 
 
 **domain**: server
 
@@ -13,7 +13,7 @@ redirect
 Description
 ===========
 
-Use ``redirect`` to redirect a Client to html page.
+Using Werkzeug ``redirect`` to redirect a Client to html page. 
 
 
 Example

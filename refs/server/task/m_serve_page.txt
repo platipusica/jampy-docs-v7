@@ -2,7 +2,7 @@
 serve_page
 ==========
 
-.. py:method:: serve_page(self) 
+.. py:method:: serve_page(self, file_name, dic=None) 
 
 **domain**: server
 
@@ -13,7 +13,7 @@ serve_page
 Description
 ===========
 
-Use ``serve_page`` to send a html page to to Client.
+Use ``serve_page`` to send a html page to to Client. ``serve_page`` is using Werkzeug Response Object.
 
 
 Example

@@ -52,7 +52,7 @@ accomplish common tasks.
 Or visit the
 :doc:`table of contents <contents>` or even 
 
-`Jam.py Application Design Tips`_.
+`Jam.py Application Design Tips`_, for a detailed steps how to build the applications or migrate from MS Access.
 
 .. _`Jam.py Application Design Tips`: https://jampy-application-design-tips.readthedocs.io/
 

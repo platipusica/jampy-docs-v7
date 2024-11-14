@@ -11,11 +11,11 @@ The solution for this problem was similar to :doc:`creating a registration form 
 As seen, the **register.html** file is using JavaScript AJAX code. Hence, any additional page would need a similar approach, if
 interacting with the database.
 
-In Jam.py v7, the solution is processing every request in the on_request event handler and defining a response on a valid request.
+In Jam.py v7, the solution is to process every request in the ``on_request`` event handler and defining a response on a valid request.
 
-This enables us to do custom login and registration forms, where custom errors can be created. For example: "User does not exist!", "Wrong password", etc.
+This enables us to do a custom login and registration forms, where custom errors can be created. For example: "User does not exist!", "Wrong password", etc.
 
-The new **login.html** page:
+The new **login.html** page with the error message:
 
 
 .. image:: /admin/_images/custom_login_error.png
@@ -34,9 +34,9 @@ Routing code
 =============
 
 
-As mentioned, the ``on_request`` is used (no Python logic shown below to make it simple to read).
+As mentioned, the ``on_request`` is used.
 
-The below code should exist on "Task/Server Module":
+The below code should exist on "Task/Server Module". No Python logic is included below to make it simple to read:
 
 .. code-block:: Python
 
@@ -50,18 +50,20 @@ The below code should exist on "Task/Server Module":
 		elif parts[0] == 'login.html':
 					.
 					.
-		            return task.serve_page(login_path, login_params)
-					.
-					.
 
 		elif parts[0] == 'register.html':
 					.
 					.
-		            return task.serve_page('register.html', 
+		            return task.serve_page('register.html') 
 					.
 					.
 
 		            return task.redirect('/login.html')
 
 
+See also
+========
 
+:doc:`serve_page </refs/server/task/m_serve_page>`
+
+:doc:`redirect </refs/server/task/m_redirect>`

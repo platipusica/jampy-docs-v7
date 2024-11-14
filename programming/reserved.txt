@@ -1,0 +1,21 @@
+==============
+Reserved words
+==============
+
+Since Jam.py is Python and JavaScript language framework, valid Python and JavaScript identifiers 
+should be used.
+In addition, for all supported databases, their own valid identifiers should be used.
+
+The file containing example list is ``keywords.py``, with below content:
+
+.. code-block:: py
+
+	keywords = [
+		"BADGE",
+		"LABEL",
+		"HIDDEN",
+		"PROGRESS",
+		"TASK"
+	]
+
+

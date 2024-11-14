@@ -14,4 +14,4 @@ Here, the basic concepts of Jam.py programming  will be explained.
    data/index
    server/index
    reports/index
-   routing/index
+   reserved

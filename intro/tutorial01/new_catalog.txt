@@ -70,3 +70,10 @@ Fill in the dialog, then click the **OK** button:
 	:scale: 50%
 	:align: center
 	:alt: Customers page
+
+
+See also
+========
+
+:doc:`sanitizing </admin/sanitizing>`
+
