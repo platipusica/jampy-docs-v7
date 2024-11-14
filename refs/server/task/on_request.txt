@@ -1,0 +1,38 @@
+==============
+on_request
+==============
+
+on_request(task, request)
+
+**domain**: server
+
+**language**: python
+
+**class** :doc:`Task class </refs/server/task_api>`
+
+Description
+===========
+
+Use ``on_request`` to send a request to the server for processing.
+
+The ``task`` parameter is a reference to the 
+:doc:`task tree </programming/task_tree>`
+The ``request`` is a string that must starts with '/ext'
+There could be a list of parameters.
+
+Example
+=======
+
+
+.. code-block:: py
+
+	def on_request(task, request):
+		parts = request.path.strip('/').split('/')
+		if parts[0] == 'register.html':
+		    return task.serve_page('register.html')
+
+See also
+========
+
+:doc:`serve_page <m_serve_page>`
+
