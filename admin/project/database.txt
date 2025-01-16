@@ -33,7 +33,7 @@ Examples of database setups
 
 .. admonition:: Adapted from `Jam.py Design Tips`_
 
-    Jam.py supports many different database servers and is officially supported with PostgreSQL_, MariaDB_, MySQL_, MSSQL_, Oracle_, Firebird_, IBM_, SQLite_ and SQLite with SQLCipher_.
+    Jam.py supports many different database servers. For example PostgreSQL_, MariaDB_, MySQL_, MSSQL_, Oracle_, Firebird_, IBM_, SQLite_ and SQLite with SQLCipher_.
 
     If you are developing a small project or something you don't plan to deploy in
     a production environment, SQLite is generally the best option as it doesn't
