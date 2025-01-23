@@ -558,8 +558,6 @@ texinfo_documents = [
 
 ]
 
-
-
 # Documents to append as an appendix to all manuals.
 
 #texinfo_appendices = []
