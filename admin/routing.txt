@@ -61,6 +61,22 @@ The below code should exist on "Task/Server Module". No Python logic is included
 		            return task.redirect('/login.html')
 
 
+The working example for serving robots.txt file:
+
+.. code-block:: Python
+
+	def on_request(task, request):
+	    parts = request.path.strip('/').split('/')
+	    if not parts[0]:
+	        if task.logged_in(request):
+	            return task.serve_page('index.html')
+	        else:
+	            return task.redirect('/login.html')
+	    elif parts[0] == 'robots.txt':
+	            return task.serve_page(os.path.join(task.work_dir, 'robots.txt'))
+
+The ``robots.txt`` file exist within the application folder.
+
 See also
 ========
 

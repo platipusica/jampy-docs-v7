@@ -105,7 +105,7 @@ Common pitfalls
 * If your Administrator prohibited setting up a virtual environment, it 
   is still possible to install Jam.py as follows::
 
-    ...\> python -m pip install jam.py
+    ...\> python -m pip install jam.py-v7
 
 
     
