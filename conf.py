@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-
 #
-
 # Jam.py documentation documentation build configuration file, created by
 
 # sphinx-quickstart on Fri Sep 25 14:26:13 2015.
