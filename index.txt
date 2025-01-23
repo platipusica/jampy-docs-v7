@@ -3,7 +3,7 @@ Jam.py V7 documentation
 =======================
 
 Introduction
-=============
+==============
 
 
 Welcome to Jam.py! If you are new to Jam.py or no-code, low-code or more-code Web application development, this is the place to find documentation about the Jam.py V7. 
