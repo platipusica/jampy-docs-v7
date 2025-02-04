@@ -5,7 +5,7 @@ Indices Dialog
 The **Indices Dialog** lists the indices that were created for the item table in 
 the project database.
 
-.. image:: /admin/_images/indices_dialog.png
+.. image:: /admin/_images/indices_dialog_jampy.png
 	:align: center
 	:alt: Indices Dialog
 	
@@ -15,7 +15,7 @@ SQL query to drop the index and execute it on the server.
 To create a new index click the **New** button. The following dialog will 
 appear:
 
-.. image:: /admin/_images/index_dialog.png
+.. image:: /admin/_images/index_dialog_jampy.png
 	:align: center
 	:alt: Index Dialog
 

@@ -6,9 +6,9 @@ In this example, we will show how to change the “Media Type” field of the �
 catalog to the same value for the selected records.
 
 
-.. image:: _images/set_media_type.png
+.. image:: _images/set_media_type_jampy.png
 	:align: center
-	:alt: set_media_type.png
+	:alt: set_media_type_jampy.png
 
 First we set the multiselect attribute of the
 :doc:`table_options </refs/client/item/at_table_options>`

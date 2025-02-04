@@ -12,7 +12,7 @@ for a role, select the role in a role list and put or remove a check mark next
 to the appropriate column by clicking on it with the mouse: View, Create, Edit, 
 Delete (allowed to view, create, modify and delete, respectively).
 
-.. image:: _images/roles.png
+.. image:: _images/roles_jampy.png
 	:align: center
 	:alt: Jam.py roles 
 

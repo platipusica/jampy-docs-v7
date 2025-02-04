@@ -23,6 +23,6 @@ Use buttons in the right panel of the page to edit
 * ``Lookup lists`` - click on the button to open 
   :doc:`Lookup lists <lookup_lists>` Dialog
   
-.. image:: _images/task.png
+.. image:: _images/task_jampy.png
 	:align: center
 	:alt: Task node

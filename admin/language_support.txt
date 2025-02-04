@@ -4,9 +4,9 @@ Language support
 
 Use Language Dialog to add, select and change your language.  
 
-.. image:: _images/lang_dialog.png
+.. image:: _images/lang_dialog_jampy.png
 	:align: center
-	:alt: lang_dialog.png
+	:alt: lang_dialog_jampy.png
 
 Language locale
 ===============
@@ -14,9 +14,9 @@ Language locale
 Use language locale to set up how the field value will be displayed. See
 :doc:`display_text </refs/client/field/at_display_text>`
 
-.. image:: _images/lang_locale.png
+.. image:: _images/lang_locale_jampy.png
 	:align: center
-	:alt: lang_locale.png
+	:alt: lang_locale_jampy.png
 
 
 Language translation
@@ -24,6 +24,6 @@ Language translation
 
 See :doc:`Language translation <language_translation>`
 
-.. image:: _images/lang_translation.png
+.. image:: _images/lang_translation_jampy.png
 	:align: center
-	:alt: lang_translation.png
+	:alt: lang_translation_jampy.png

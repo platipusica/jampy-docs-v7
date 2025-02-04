@@ -7,7 +7,7 @@ Form templates of the project are located in the
 file. This file is located in the root directory of a project,
 and accessed/modified by click on ``templates [F9]`` on :doc:`Task </admin/task>`  tree.
 
-.. image:: /programming/_images/forms_template.png
+.. image:: /programming/_images/forms_template_jampy.png
 	:align: center
 	:alt: Forms Template
 

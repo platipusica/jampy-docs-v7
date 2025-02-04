@@ -9,7 +9,7 @@ Application builder (see
 the item. 
 A new project code has a function that can be used to print the reports.
 
-.. image:: /admin/_images/reports_dialog.png
+.. image:: /admin/_images/reports_dialog_jampy.png
 	:align: center
 	:alt: Reports Dialog
 

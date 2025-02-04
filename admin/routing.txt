@@ -18,14 +18,14 @@ This enables us to do a custom login and registration forms, where custom errors
 The new **login.html** page with the error message:
 
 
-.. image:: /admin/_images/custom_login_error.png
+.. image:: /admin/_images/custom_login_error_jampy.png
 	:align: center
 	:alt: Custom Login Form
 
 
 The new **register.html** page (no AJAX):
 
-.. image:: /admin/_images/register_form_v7.png
+.. image:: /admin/_images/register_form_v7_jampy.png
 	:align: center
 	:alt: Registration Form
 

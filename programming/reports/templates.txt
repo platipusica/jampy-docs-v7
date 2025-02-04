@@ -9,7 +9,7 @@ The template files are located in the report folder of the project directory.
 The following figure shows a template of the Invoice report. 
 
 
-.. image:: /programming/_images/template.png
+.. image:: /programming/_images/template_jampy.png
 	:align: center
 	:alt: Invoice report template
 

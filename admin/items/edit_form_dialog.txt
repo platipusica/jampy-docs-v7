@@ -18,7 +18,7 @@ On the **Layout** tab, you can specify the fields that the user can edit,
 their order, create tabs and bands for grouping field inputs. 
 
 
-.. image:: /admin/_images/edit_form_layout.png
+.. image:: /admin/_images/edit_form_layout_jampy.png
 	:align: center
 	:alt: Edit Fields Dialog
 
@@ -67,7 +67,7 @@ to customize the fields that will be edited on each tab and band.
 Form tab
 ========
 
-.. image:: /admin/_images/edit_form_form.png
+.. image:: /admin/_images/edit_form_form_jampy.png
 	:align: center
 	:alt: Edit Form layout tab
 

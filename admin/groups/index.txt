@@ -15,7 +15,7 @@ At the bottom of the page there are 3 buttons:
 * **New** -  use this button to create a new group. After that the you have to 
   select a new group type in the Dialog box that will appear.
   
-.. image:: /admin/_images/group_type.png
+.. image:: /admin/_images/group_type_jampy.png
 	:align: center
 	:alt: Group type
 
@@ -38,6 +38,6 @@ a selected group, see
 * :doc:`Working with modules </programming/modules>`, 
 * :doc:`Code editor </admin/code_editor>`
 
-.. image:: /admin/_images/groups.png
+.. image:: /admin/_images/groups_jampy.png
 	:align: center
 	:alt: Group node

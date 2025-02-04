@@ -6,7 +6,7 @@ When we refresh the project page, we see that fields  in the table and
 in the edit form of the "Contacts" journal are displayed in the order in which 
 they were created. 
 
-.. image:: /intro/_images/contacts_new.png
+.. image:: /intro/_images/contacts_new_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Contacts new record
@@ -17,7 +17,7 @@ button to open the
 Let's change the displayed fields using **left**, **right**, **up** 
 and **down** buttons.
 
-.. image:: /intro/_images/view_contacts1.png
+.. image:: /intro/_images/view_contacts1_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: View contacts1
@@ -30,17 +30,17 @@ We can also change which fields can be used for sorting the table.
 To do this, click on the button right to the **Sort fields** input and select the
 corresponding column header of the table. Then save all changes by pressing **OK**.
 
-.. image:: /intro/_images/view_contacts_order_by.png
+.. image:: /intro/_images/view_contacts_order_by_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: view_contacts_order_by.png
+	:alt: view_contacts_order_by_jampy.png
 
 To change the way the fields are displayed in the edit form, click the **Edit Form**
 button to open the
 :doc:`Edit Form Dialog </admin/items/edit_form_dialog>`.
 This works in a very similar way to the **View Form** above.
 
-.. image:: /intro/_images/edit_contacts2.png
+.. image:: /intro/_images/edit_contacts2_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Edit contacts2
@@ -48,7 +48,7 @@ This works in a very similar way to the **View Form** above.
 To see the result of our work, go to the project page, refresh it and click 
 the **New** button.
 
-.. image:: /intro/_images/contacts_view.png
+.. image:: /intro/_images/contacts_view_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Contacts view

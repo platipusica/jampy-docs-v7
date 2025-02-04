@@ -11,9 +11,9 @@ custom users table.
 First, we create an item group **Authentication** select it and add an item 
 **Users** that has the following fields:
 
-.. image:: /how_to/_images/users_fields.png
+.. image:: /how_to/_images/users_fields_jampy.png
 	:align: center
-	:alt: users_fields.png
+	:alt: users_fields_jampy.png
 
 
 We won't store in the table the user password and use this field in the interface.
@@ -27,9 +27,9 @@ We added to it the same roles (ids and names) as in the table
 :doc:`Roles </admin/roles>`
 We 'll have to sycronize this roles in the future.
 
-.. image:: /how_to/_images/roles_lookup_list.png
+.. image:: /how_to/_images/roles_lookup_list_jampy.png
 	:align: center
-	:alt: roles_lookup_list.png
+	:alt: roles_lookup_list_jampy.png
 
 In the 
 :doc:`Roles </admin/roles>`

@@ -5,7 +5,7 @@ Project management
 After the Application builder is first run or when the **Project** node is selected
 in the project tree, the Application builder page will look as follows:
 
-.. image:: /admin/_images/project_node.png
+.. image:: /admin/_images/project_node_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Project management

@@ -7,7 +7,7 @@ delete attribute is not set, in order to maintain the integrity of the data,
 we can create a foreign key. See 
 :doc:`Foreign keys topic </faq/faq_foreign_keys>` in FAQ
 
-.. image:: /admin/_images/foreign_keys_dialog.png
+.. image:: /admin/_images/foreign_keys_dialog_jampy.png
 	:align: center
 	:alt: Foreign Keys Dialog
 

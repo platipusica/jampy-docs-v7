@@ -57,7 +57,7 @@ the following code to the "Poll" client module:
   }
   
 
-.. image:: _images/details.png
+.. image:: _images/details_jampy.png
 	:align: center
-	:alt: details.png
+	:alt: details_jampy.png
   

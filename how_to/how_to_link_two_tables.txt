@@ -245,6 +245,6 @@ will be as follows:
       });
   }
 
-.. image:: _images/two_tables.png
+.. image:: _images/two_tables_jampy.png
 	:align: center
-	:alt: two_tables.png
+	:alt: two_tables_jampy.png

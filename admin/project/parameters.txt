@@ -8,7 +8,7 @@ It has two tabs **General** and **Interface**.
 General tab
 ===========
 
-.. image:: /admin/_images/parameters.png
+.. image:: /admin/_images/parameters_jampy.png
 	:align: center
 	:alt: Project parameters dialog
 
@@ -93,9 +93,9 @@ On the General tab, you can specify general parameters of the project:
 Interface tab
 =============
 
-.. image:: /admin/_images/parameters_interface.png
+.. image:: /admin/_images/parameters_interface_jampy.png
 	:align: center
-	:alt: parameters_interface.png
+	:alt: parameters_interface_jampy.png
 	
 On the Interface tab, you can specify interface parameters of the project:	
 

@@ -11,31 +11,31 @@ Let's select the "Customers" catalog, Double-click it to open the
 :doc:`Item Editor Dialog </admin/items/item_editor_dialog>`
 and add an image field "Photo":
 
-.. image:: /intro/_images/image_field.png
+.. image:: /intro/_images/image_field_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: image_field.png
+	:alt: image_field_jampy.png
 
 Now refresh the project page, click the Customers menu item and open the edit form.
 
-.. image:: /intro/_images/image_project1.png
+.. image:: /intro/_images/image_project1_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: image_project1.png
+	:alt: image_project1_jampy.png
 
 Double-click the image in the editing form to select an image from the Open File 
 dialog box.
 
-.. image:: /intro/_images/select_image.png
+.. image:: /intro/_images/select_image_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: select_image.png
+	:alt: select_image_jampy.png
 
 
-.. image:: /intro/_images/image_project2.png
+.. image:: /intro/_images/image_project2_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: image_project2.png
+	:alt: image_project2_jampy.png
 
 .. note::
 
@@ -46,10 +46,10 @@ Let's open the
 in Application Builder and set **View width** to 120 and
 **Edit width** to 314 on the **Interface** tab.
 
-.. image:: /intro/_images/image_field2.png
+.. image:: /intro/_images/image_field2_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: image_field2.png
+	:alt: image_field2_jampy.png
 
 .. note::
 
@@ -59,17 +59,17 @@ In the
 :doc:`View Form Dialog </admin/items/view_form_dialog>`
 we set **Row lines** to 4 and the width of the "Photo" field to 120.  
 
-.. image:: /intro/_images/image_view_form.png
+.. image:: /intro/_images/image_view_form_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: image_view_form.png
+	:alt: image_view_form_jampy.png
 
 Now on the project page we will have:
 
-.. image:: /intro/_images/image_edit.png
+.. image:: /intro/_images/image_edit_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: image_edit.png
+	:alt: image_edit_jampy.png
 
 
 See also
@@ -94,17 +94,17 @@ Adding file field
 
 Now we add a field that will store an attachment file to the "Contacts" journal.
 
-.. image:: /intro/_images/file_field.png
+.. image:: /intro/_images/file_field_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: file_field.png
+	:alt: file_field_jampy.png
 
 This field will be displayed in the editing form as follows:
 
-.. image:: /intro/_images/appendix_edit.png
+.. image:: /intro/_images/appendix_edit_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: appendix_edit.png
+	:alt: appendix_edit_jampy.png
 	
 The field input have three buttons on the right - to upload, to download and to 
 open a file. 	
@@ -118,30 +118,30 @@ Please review the :doc:`list of accepted values </admin/accept_string>`,
 before adding the values.
 
 
-.. image:: /intro/_images/appendix_interface.png
+.. image:: /intro/_images/appendix_interface_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: appendix_interface.png
+	:alt: appendix_interface_jampy.png
 	
 Let's	refresh the project page, open the "Contacts" edit form and upload a file
 by clicking the upload button:
 
-.. image:: /intro/_images/appendix_select.png
+.. image:: /intro/_images/appendix_select_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: appendix_select.png
+	:alt: appendix_select_jampy.png
 
 Now we can open a file in the browser by clicking on the open button.
 
-.. image:: /intro/_images/appendix_field2.png
+.. image:: /intro/_images/appendix_field2_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: appendix_field2.png
+	:alt: appendix_field2_jampy.png
 
-.. image:: /intro/_images/appendix_pdf_open.png
+.. image:: /intro/_images/appendix_pdf_open_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: appendix_pdf_open.png
+	:alt: appendix_pdf_open_jampy.png
 
 
 

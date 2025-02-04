@@ -10,7 +10,7 @@ default. See
 :doc:`open </refs/client/item/m_open>`
 method
 
-.. image:: /admin/_images/records_order_dialog.png
+.. image:: /admin/_images/records_order_dialog_jampy.png
 	:align: center
 	:alt: Order Dialog
 

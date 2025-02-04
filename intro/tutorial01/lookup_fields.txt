@@ -14,7 +14,7 @@ Then, add the
 :doc:`lookup field </programming/data/lookup_fields>`
 "Customer", which will store a reference to a record in the "Customers" catalog.
 
-.. image:: /intro/_images/contacs_cutomer_fld.png
+.. image:: /intro/_images/contacs_cutomer_fld_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Adding Customer field
@@ -23,14 +23,14 @@ To create a lookup field, first specify its caption and name, and leave the type
 empty. Then go to the **Lookup** tab and click the button to the right of the **Lookup item** input.
 
 
-.. image:: /intro/_images/cutomers_lookup_tab.png
+.. image:: /intro/_images/cutomers_lookup_tab_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Cutomer lookup tab
 
 This brings up a list of items. Double click the "Customer" record to select it.
 
-.. image:: /intro/_images/cutomers_lookup_item.png
+.. image:: /intro/_images/cutomers_lookup_item_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Selecting Customer lookup item
@@ -39,7 +39,7 @@ Next, we need to specify a lookup field. This is how the customer will be locate
 Here we choose "Lastname". Leave the other fields empty and press **OK**.
 
 
-.. image:: /intro/_images/lastname_lookup.png
+.. image:: /intro/_images/lastname_lookup_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Lastname lookup field
@@ -49,19 +49,19 @@ For these fields, we specify the "Customer" field as their **Master field** attr
 This connects them to the first "Lastname" lookup field we created, so that all three
 lookup fields refer to the same customer.
 
-.. image:: /intro/_images/contacts_firstname.png
+.. image:: /intro/_images/contacts_firstname_jampy.png
 	:scale: 50%
 	:align: center
-	:alt: contacts_firstname.png
+	:alt: contacts_firstname_jampy.png
 
-.. image:: /intro/_images/phone_lookup.png
+.. image:: /intro/_images/phone_lookup_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Phone lookup field
 	
 Click the **OK** button to save the "Contacts" item. 
 
-.. image:: /intro/_images/contacts_sql.png
+.. image:: /intro/_images/contacts_sql_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Contacts sql
@@ -74,7 +74,7 @@ fields to "Customer". The "Customer" field will store a reference to a record in
 Refresh the project page and, in the "Contacts" page, click the **New** button.
 You will see that there is a small button to the right of the "Customer" input.
 
-.. image:: /intro/_images/customer_input.png
+.. image:: /intro/_images/customer_input_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Customer input
@@ -83,7 +83,7 @@ Click on it and select a record in the "Customers" catalog: the
 fields "Customer", "Firstname" and "Phone" will be filled automatically.
 
 
-.. image:: /intro/_images/customer_input_selected.png
+.. image:: /intro/_images/customer_input_selected_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Customer input selected

@@ -25,6 +25,6 @@ The field type is ``integer``.
 After that we can set **Edit lock** attribute in the
 :doc:`Item Editor Dialog <items/item_editor_dialog>`:
 
-.. image:: _images/item_editor_dialog.png
+.. image:: _images/item_editor_dialog_jampy.png
 	:align: center
 	:alt: Keep history attribute

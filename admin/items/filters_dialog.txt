@@ -5,7 +5,7 @@ Filters Dialog
 Use **Filters Dialog** to create and modify item filters. See 
 :doc:`Filters </programming/data/filters>`
 
-.. image:: /admin/_images/filters_dialog.png
+.. image:: /admin/_images/filters_dialog_jampy.png
 	:align: center
 	:alt: Filters Dialog
 	
@@ -13,7 +13,7 @@ To add or edit a filter click on the appropriate button on the form. The
 following form will appear:
 
 
-.. image:: /admin/_images/filter_editor.png
+.. image:: /admin/_images/filter_editor_jampy.png
 	:align: center
 	:alt: Filter Editor
 

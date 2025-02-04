@@ -18,7 +18,7 @@ Layout tab
 On the Layout tab, you can specify how the table is displayed in the view form of 
 the item.
 
-.. image:: /admin/_images/view_form_layout.png
+.. image:: /admin/_images/view_form_layout_jampy.png
 	:align: center
 	:alt: View Form Layout tab
 
@@ -102,7 +102,7 @@ attribute of the item
 Form tab
 ========
 
-.. image:: /admin/_images/view_form_form.png
+.. image:: /admin/_images/view_form_form_jampy.png
 	:align: center
 	:alt: View Form Form tab
 

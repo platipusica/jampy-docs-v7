@@ -35,13 +35,13 @@ open a new page in a browser and enter
 
 
 
-.. image:: _images/demo.png
+.. image:: _images/demo_jampy.png
 	:scale: 70 %
 	:align: center
 	:alt: Demo application
 
 
-.. image:: _images/demo_admin.png
+.. image:: _images/demo_admin_jampy.png
 	:scale: 70 %
 	:align: center
 	:alt: Application builder of demo project

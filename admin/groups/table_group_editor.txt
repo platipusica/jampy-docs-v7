@@ -88,6 +88,6 @@ In the bottom-right corner of the Dialog form there are two buttons:
     For existing detail groups, that already own items you can only change 
     **Caption**, **Name** and  **Visible** attributes.
 
-.. image:: /admin/_images/detail_group.png
+.. image:: /admin/_images/detail_group_jampy.png
 	:align: center
 	:alt: Detail Group Editor

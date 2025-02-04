@@ -7,7 +7,7 @@ tree of the Application builder and click on the **New** or **Edit** button to c
 a new item or modify a selected one. See 
 :doc:`Items <index>`.
 
-.. image:: /admin/_images/item_editor_dialog.png
+.. image:: /admin/_images/item_editor_dialog_jampy.png
 	:align: center
 	:alt: Item Editor Dialog
 	

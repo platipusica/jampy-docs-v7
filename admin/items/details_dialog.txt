@@ -5,7 +5,7 @@ Details Dialog
 Use this dialog to setup details of an item. See 
 :doc:`Details </programming/data/details>`.
 
-.. image:: /admin/_images/details_dialog.png
+.. image:: /admin/_images/details_dialog_jampy.png
 	:align: center
 	:alt: Details Dialog
 

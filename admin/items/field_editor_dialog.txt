@@ -15,9 +15,9 @@ The dialog has following tabs: **Field**, **Lookup**, **Interface** and **Calcul
 Field tab
 =========
 
-.. image:: /admin/_images/fields_editr_field.png
+.. image:: /admin/_images/fields_editr_field_jampy.png
 	:align: center
-	:alt: fields_editr_field.png
+	:alt: fields_editr_field_jampy.png
 
 The **Field** tab have the following fields:
 
@@ -56,9 +56,9 @@ The **Field** tab have the following fields:
 Lookup tab
 ==========
 
-.. image:: /admin/_images/fields_editr_lookup.png
+.. image:: /admin/_images/fields_editr_lookup_jampy.png
 	:align: center
-	:alt: fields_editr_lookup.png
+	:alt: fields_editr_lookup_jampy.png
 
 
 * **Lookup item** - the lookup item for 
@@ -87,9 +87,9 @@ Lookup tab
 Interface tab
 =============
 
-.. image:: /admin/_images/fields_editr_interface.png
+.. image:: /admin/_images/fields_editr_interface_jampy.png
 	:align: center
-	:alt: fields_editr_interface.png
+	:alt: fields_editr_interface_jampy.png
 
 * **Mask** - use this attribute to specify the 
   :doc:`field_mask </refs/client/field/at_field_mask>`
@@ -114,14 +114,14 @@ Interface tab for FILE field
 ============================
 
 
-.. image:: /admin/_images/fields_editr_file_interface.png
+.. image:: /admin/_images/fields_editr_file_interface_jampy.png
 	:align: center
-	:alt: fields_editr_file_interface.png
+	:alt: fields_editr_file_interface_jampy.png
 
 
-.. image:: /admin/_images/file_btns.png
+.. image:: /admin/_images/file_btns_jampy.png
 	:align: center
-	:alt: file_btns.png
+	:alt: file_btns_jampy.png
 
 
 * **Download btn** - uncheck the box to hide the download button (middle)
@@ -141,9 +141,9 @@ Interface tab for FILE field
 Interface tab for Image field
 =============================
 
-.. image:: /admin/_images/fields_editr_image_interface.png
+.. image:: /admin/_images/fields_editr_image_interface_jampy.png
 	:align: center
-	:alt: fields_editr_image_interface.png
+	:alt: fields_editr_image_interface_jampy.png
 	
 * **View width** - specifies the width of an image in pixels when it is displayed
   in the table of the view form. If it not specified, the width is auto
@@ -168,9 +168,9 @@ Interface tab for Image field
 Calculation tab
 ===============
 
-.. image:: /admin/_images/fields_editr_calc.png
+.. image:: /admin/_images/fields_editr_calc_jampy.png
 	:align: center
-	:alt: fields_editr_calc.png
+	:alt: fields_editr_calc_jampy.png
   
 
 * **Calc. object** - specifies the :doc:`Details </admin/items/details_dialog>` table.

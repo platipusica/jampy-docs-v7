@@ -53,9 +53,9 @@ For example this code
   
 will change form inputs this way:
 
-.. image:: _images/form_elements_style.png
+.. image:: _images/form_elements_style_jampy.png
 	:align: center
-	:alt: form_elements_style.png
+	:alt: form_elements_style_jampy.png
 
   
 Please, note that if you need to change the width of input with prepend or

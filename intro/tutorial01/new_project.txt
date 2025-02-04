@@ -28,7 +28,7 @@ Now, to complete the creation of the project, open the web browser and go to
 to open the Application Builder. You should see the language selection dialog.
 
 
-.. image:: /intro/_images/lang.png
+.. image:: /intro/_images/lang_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Select language dialog
@@ -36,7 +36,7 @@ to open the Application Builder. You should see the language selection dialog.
 Use the browse button to select **English**, and click the **OK** button.
 The project parameters dialog box appears.
 
-.. image:: /intro/_images/project_params.png
+.. image:: /intro/_images/project_params_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Project params
@@ -45,7 +45,7 @@ Fill out the form as in the picture above, and click **OK**.
 Now you should see the project tree in the left panel.
 
 
-.. image:: /intro/_images/adm_new_project.png
+.. image:: /intro/_images/adm_new_project_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Project Application builder
@@ -59,7 +59,7 @@ Open a new page, type
 in the address bar and press Enter.
 A new project appears with an empty menu.
 
-.. image:: /intro/_images/empty_project.png
+.. image:: /intro/_images/empty_project_jampy.png
 	:scale: 50%
 	:align: center
 	:alt: Empty project

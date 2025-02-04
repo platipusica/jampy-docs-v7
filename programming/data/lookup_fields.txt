@@ -20,9 +20,9 @@ In the framework you can add a field to an item to look up information in anothe
 item's table. For example in the Demo application **Albums** catalog there is the
 **Artist** lookup field.
 
-.. image:: /programming/_images/albums_edit_form.png
+.. image:: /programming/_images/albums_edit_form_jampy.png
 	:align: center
-	:alt: albums_edit_form.png
+	:alt: albums_edit_form_jampy.png
 
 To set the value of the field the user must click on the button to the right of the 
 field input and select a record from the ''Artists'' catalog that will appear.
@@ -31,7 +31,7 @@ The other way to set value of the field is to use typeahead, if **Typeahead**
 flag is set in the 
 :doc:`Field Editor Dialog </admin/items/field_editor_dialog>`:
 
-.. image:: /programming/_images/artist_field.png
+.. image:: /programming/_images/artist_field_jampy.png
 	:align: center
 	:alt: Lookup field
 
@@ -67,7 +67,7 @@ database table. Their value property is always equal to the value property of
 the master field and the SQL query that is generated on the server, when the 
 open method is called, uses one ``JOIN`` clause for all this fields.
 
-.. image:: /programming/_images/master_field_example.png
+.. image:: /programming/_images/master_field_example_jampy.png
 	:align: center
 	:alt: Master field example
 	
@@ -83,9 +83,9 @@ a user to select a value for the field.
 
 The lookup field in the lookup item can also be a lookup field, for example:
 
-.. image:: /programming/_images/tracks_lookup_field.png
+.. image:: /programming/_images/tracks_lookup_field_jampy.png
 	:align: center
-	:alt: tracks_lookup_field.png
+	:alt: tracks_lookup_field_jampy.png
 	
 To set up such a field use **Lookup field 2** and **Lookup field 3** attributes.
 	
@@ -98,7 +98,7 @@ example, a **MediaType** field in the **Tracks** catalog of the
 :doc:`Demo project </intro/demo_project>` has a **Lookup value list** attribute set
 to the MediaTypes lookup list:
 
-.. image:: /programming/_images/mediatype_field.png
+.. image:: /programming/_images/mediatype_field_jampy.png
 	:align: center
 	:alt:  MediaType field definition
 

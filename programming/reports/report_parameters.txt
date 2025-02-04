@@ -5,7 +5,7 @@ Report parameters
 You can specify the parameters of the report. For example, the 
 **Customer purchases** report of the Demo project has three parameters.
 
-.. image:: /programming/_images/parameters.png
+.. image:: /programming/_images/parameters_jampy.png
 	:align: center
 	:alt: Report parameters
 
@@ -14,7 +14,7 @@ panel of the Application builder. A form will appear displaying the list of exis
 parameters. Then click New or Edit button of the form to add or change the
 parameter.
 
-.. image:: /programming/_images/report_param.png
+.. image:: /programming/_images/report_param_jampy.png
 	:align: center
 	:alt: Report param
 
@@ -62,7 +62,7 @@ It it possible to create a lookup parameter. For example, the **Customer purchas
 report has a **Customer** parameter that can be selected from **Customers** 
 catalog:
 
-.. image:: /programming/_images/lookup_param.png
+.. image:: /programming/_images/lookup_param_jampy.png
 	:align: center
 	:alt: Lookup parameter
 
@@ -75,7 +75,7 @@ In this case we should specify:
 Form for setting the parameters of **Customer purchases** report is as follows:
 
 
-.. image:: /programming/_images/customer_purchases_params.png
+.. image:: /programming/_images/customer_purchases_params_jampy.png
 	:align: center
 	:alt: Customer purchases parameters example
 

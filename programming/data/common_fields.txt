@@ -5,7 +5,7 @@ Common fields
 Items that have access to the database data can have common fields. They are 
 defined in the group they belong to: 
 
-.. image:: /programming/_images/common_fields.png
+.. image:: /programming/_images/common_fields_jampy.png
 	:align: center
 	:alt: Common fields
 
