@@ -52,7 +52,7 @@ Examples of database setups
 
     * If using MSSQL, the ``pymssql`` is needed.
 
-    * If using Oracle, the `cx_Oracle`_ is needed.
+    * If using Oracle, the `cx_Oracle`_ is needed, as well as Python headers (development files).
 
     * If using SQLCipher_,  ``sqlcipher3-binary`` is needed for Linux. There is a standalone DLL for Windows available.
 
