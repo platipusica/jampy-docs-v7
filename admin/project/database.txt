@@ -46,17 +46,20 @@ Examples of database setups
     In addition to a database backend, we need to make sure the Python
     database bindings are installed.
 
-    * If using PostgreSQL, the ``psycopg2`` package is needed. 
+    * If using PostgreSQL, the ``psycopg2`` or ``psycopg2-binary`` package is needed. 
 
-    * If using MySQL or MariaDB, the ``MySQLdb`` for Python 2.x is needed. For Python 3.x, the  ``mysql-connector-python`` and ``mysqlclient`` is needed, as well as database client development files. 
+    * If using MySQL or MariaDB, the ``MySQLdb`` for Python 2.x is needed. For Python 3.x, the  ``mysql-connector-python`` and ``mysqlclient`` package is needed, as well as database client development files. 
 
     * If using MSSQL, the ``pymssql`` is needed.
 
     * If using Oracle, the `cx_Oracle`_ is needed, as well as Python headers (development files).
 
-    * If using SQLCipher_,  ``sqlcipher3-binary`` is needed for Linux. There is a standalone DLL for Windows available.
+    * If using SQLCipher_,  ``sqlcipher3-binary`` package is needed for Linux. There is a standalone DLL for Windows available.
 
-    * If using IBM_,  ``ibm_db`` and ``ibm_db_dbi`` is needed.
+    * If using IBM_,  ``ibm_db`` and ``ibm_db_dbi`` package is needed.
+
+    * If using Firebird,  ``fdb`` package is needed.
+
 
 .. _Jam.py Design Tips: https://jampy-application-design-tips.readthedocs.io/
 .. _PostgreSQL: https://www.postgresql.org/
