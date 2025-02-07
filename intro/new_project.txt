@@ -1,193 +1,120 @@
-================================
-How to install Jam.py on Windows
-================================
-
-.. admonition:: Adapted from `Django Docs`_
-        
-        The below document is adopted from `Django Docs`_.
-
-This document will guide you through installing Python 3.x and Jam.py on
-Windows. It also provides instructions for setting up a virtual environment,
-which makes it easier to work on Python projects. This is meant as a beginner's
-guide for users working on Jam.py projects and does not reflect how Jam.py
-should be installed when developing patches for Jam.py itself.
-
-The steps in this guide have been tested with Windows 10. In other
-versions, the steps would be similar. You will need to be familiar with using
-the Windows command prompt.
-
-
-.. _Django Docs: https://docs.djangoproject.com/
-
-Install Python
-==============
-
-Jam.py is a Python web framework, thus requiring Python to be installed on your
-machine. At the time of writing, Python 3.8 is the latest version.
-
-To install Python on your machine go to https://www.python.org/downloads/. The
-website should offer you a download button for the latest Python version.
-Download the executable installer and run it. Check the boxes next to "Install
-launcher for all users (recommended)" then click "Install Now".
-
-After installation, open the command prompt and check that the Python version
-matches the version you installed by executing::
-
-    ...\> python --version
-
-
-About ``pip``
-=============
-
-`pip`_ is a package manager for Python and is included by default with the
-Python installer. It helps to install and uninstall Python packages
-(such as Jam.py!). For the rest of the installation, we'll use ``pip`` to
-install Python packages from the command line.
-
-.. _pip: https://pypi.org/project/pip/
-
-.. _virtualenvironment:
-
-Setting up a virtual environment
-================================
-
-It is best practice to provide a dedicated environment for each Jam.py project
-you create. There are many options to manage environments and packages within
-the Python ecosystem, some of which are recommended in the `Python
-documentation <https://packaging.python.org/guides/tool-recommendations/>`_.
-
-To create a virtual environment for your project, open a new command prompt,
-navigate to the folder where you want to create your project and then enter the
-following::
-
-    ...\> python -m venv project-name
-
-This will create a folder called 'project-name' if it does not already exist
-and set up the virtual environment. To activate the environment, run::
-
-    ...\> project-name\Scripts\activate.bat
-
-The virtual environment will be activated and you'll see "(project-name)" next
-to the command prompt to designate that. Each time you start a new command
-prompt, you'll need to activate the environment again.
-
-Install Jam.py
-==============
-
-Jam.py can be installed easily using ``pip`` within your virtual environment.
-
-In the command prompt, ensure your virtual environment is active, and execute
-the following command::
-
-    ...\> python -m pip install jam.py-v7
-
-
-This will download and install the latest Jam.py release.
-
-After the installation has completed, you can verify your Jam.py installation
-by executing ``pip list`` in the command prompt.
-
-
-Create a new project
-====================
+==================
+Creating a project
+==================
 
 Create a new directory. 
 
-Go into the directory and run from command line::
+Go into the directory and run from command line:
 
-    ...\>python  ..\project-name\Scripts\jam-project.py
+.. code-block:: console
 
-
-To start the Jam.py web server run ``server.py`` script::
-
-
-    ...\>python  server.py
+    $ jam-project.py
 
 
-Click "Allow" for public and private networks to access this app.
+The following files and folders will be created in the directory::
+
+    /
+        css/
+        js/
+        img/
+        reports/
+        static/
+        admin.sqlite
+        server.py
+        index.html
+        wsgi.py
 
 
-Common pitfalls
-===============
+To start the Jam.py web server, run the ``server.py`` script.
 
 
-* If you are connecting to the internet behind a proxy, there might be problems
-  in running the command ``py -m pip install Jam.py``. Set the environment
-  variables for proxy configuration in the command prompt as follows::
+.. code-block:: console
 
-    ...\> set http_proxy=http://username:password@proxyserver:proxyport
-    ...\> set https_proxy=https://username:password@proxyserver:proxyport
+    $ ./server.py
 
 
-* If your Administrator prohibited setting up a virtual environment, it 
-  is still possible to install Jam.py as follows::
-
-    ...\> python -m pip install jam.py
-
-
+.. note::
+    You can specify a port as parameter, for example 
     
-  This will download and install the latest Jam.py release.
-
-  After the installation has completed, you can verify your Jam.py installation
-  by executing ``pip list`` in the command prompt.
-
-  However, running ``jam-project.py`` will fail since it is not in the path. Check
-  the installation folder::
-
-    ...\> python -m site --user-site
-
-  The output might be similar to the following::
-
-    C:\Users\youruser\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages
+    .. code-block:: console
+    
+        $ ./server.py 8081
+        
+    By default, the port is 8080. If you specify another port, you need to
+    use it in your browser in the next steps.
 
 
+Open a Web browser and go to “/builder.html” on your local domain – e.g.:
 
-  Replace ``site-packages`` at the end of above line with ``Scripts``::
+.. code-block:: console
 
-    ...\> dir C:\Users\youruser\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts
+    127.0.0.1:8080/builder.html
+    
+You should see the language selection dialog. This defines the language used for the
+user interface. You can select the language from the list of default languages, or
+import your own, using the "folder" icon to the right of the input field. See the
+:doc:`Language support </admin/language_support>` page for more information.
+Select your language and press the OK button.
+
+.. image:: _images/lang_jampy.png
+	:alt: Jam.py language dialog
+
+Next is the new project dialog. Fill in:
+
+* **Caption** - the project name that will appear to users.
+* **Name** - the name of project (task) that will be used in the code (Python or JS)
+  to get access to the task object. This should be a short and valid python identifier.
+  This name is also used as a prefix when creating a table in the project database.
+* **DB type** - select a database type. If the database is not Sqlite, it must be
+  created in advance and its attributes should be entered in the 
+  corresponding form fields. 
+  To see examples of Database setup, follow the :doc:`link </admin/project/database>`.
+
+.. image:: _images/project_params_jampy.png
+	:align: center
+	:alt: New project setup
+
+When you press OK, the connection to the database will be checked, and in case 
+of failure 	an error message will be displayed.
+
+.. note::
+
+    Please note the following requirements:
+    
+    * To use a **FireBird** database, the python ``fdb`` library must be installed.
+    * **PostgreSQL** requires the ``psycopg2`` library.
+    * **MySQL** requires the ``MySQLdb`` library.
+    * **Oracle** requires the ``cx_Oracle`` library.
+    * **MSSQL** requires the ``pymssql`` library.
+    * To generate reports, **LibreOffice** must be installed.
+    
+.. note::
+
+    For a **SQLite** database, when an item field is deleted or renamed, or foreign
+    key is created, 
+    :doc:`Application builder </admin/index>`,
+    creates a new table and copies records from the old one into it.
+    
+    For **SQLite** database, Jam.py doesn’t support importing of metadata into an 
+    existing project (project with tables in the database). 
+    You can only import metadata into a new project.
+
+If all goes well, a new project will be created and the project tree will appear 
+in the Application builder.    
 
 
-  The output might be similar to the following::
+.. image:: _images/adm_new_project_jampy.png
+	:align: center
+	:alt: Jam.py Application builder
 
-    ...\> Directory of C:\Users\yourser\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts
+Now, to see the project itself, create a new page in the browser and type in the 
+address bar:
 
-        13/04/2023  02:59 PM    <DIR>          .
-        13/04/2023  02:59 PM    <DIR>          ..
-        13/04/2023  02:59 PM             1,087 jam-project.py
-                       1 File(s)          1,087 bytes
-                       2 Dir(s)  177,027,321,856 bytes free
+.. code-block:: console
 
-
-
-  Create the new folder somewhere and run ``jam-project`` from from it::
-
-    ...\> python C:\Users\youruser\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts\jam-project.py
+    127.0.0.1:8080
 
 
-  Run the new project::
-
-    ...\> python server.py
-
-
-Installing WLS
-==============
-
-
-Invoking installation::
-
-    ...\> wsl --install
-
-
-
-The output might be similar to the following::
-
-        Installing: Virtual Machine Platform
-        Virtual Machine Platform has been installed.
-        Installing: Windows Subsystem for Linux
-        Windows Subsystem for Linux has been installed.
-        Installing: Ubuntu
-        Ubuntu has been installed.
-        The requested operation is successful. Changes will not be effective until the system is rebooted.
-
-
-Now, we have a development environment with Ubuntu, and we can proceed with Jam.py installation as usual for Linux.
+.. image:: _images/empty_project_jampy.png
+	:align: center
+	:alt: Jam.py project
