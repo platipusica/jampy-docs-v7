@@ -2,6 +2,11 @@
 How to migrate v5 project to v7
 ==================================
 
+For any v5 project, copy the template.html file from official V7 Jam.py Demo into the v5 application folder.
+Uninstall the v5 Jam.py and install the v7.
+Start the application as usual. 
+
+Address the following:
 
 #. The biggest obstacle to move a Jam.py v5 application is the "Edit Lock" (record locking), enabled on the table(s). The Jam.py v7 is expecting a  `record_version` (INT) field for every table with the Edit Lock.
 
