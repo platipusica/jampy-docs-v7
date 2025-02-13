@@ -22,4 +22,4 @@ How to migrate v5 project to v7
 #. Jam.py V7 is now utilising the Python dependencies and will automatically install needed libraries with the initial install. This is different to v5, where all dependencies were "locked in" with the Jam.py distribution, enabling a single ``jam`` folder for deployment with the application.
 
 
-#. For applications with Jam.py version 5.x or below, replace the Task/Client module code with Task/Client module code Demo application or the new v7 project. Than, add a custom the code from v5 Task/Client module, if any.
+#. For applications with Jam.py version 5.x or below, replace the Task/Client module code with Task/Client module code from Demo application or the new v7 project. Than, add a custom the code from v5 Task/Client module, if there was any.
