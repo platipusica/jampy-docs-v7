@@ -2,8 +2,10 @@
 How to migrate v5 project to v7
 ==================================
 
-For any v5 project, copy the template.html file from official V7 Jam.py Demo into the v5 application folder.
+For any v5 project, backup index.html file first and copy index.html and template.html from v7 Jam.py Demo into the application folder.
+
 Uninstall the v5 Jam.py and install the v7.
+
 Start the application as usual. 
 
 Address the following:
