@@ -1,6 +1,7 @@
 =============
 copy_database
 =============
+TBA - changed from Jam.py v5.
 
 .. py:method:: copy_database(self, dbtype, database=None, user=None, password=None, host=None, port=None, encoding=None, server=None)
 
