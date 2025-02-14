@@ -2,6 +2,8 @@
 How to migrate to another database
 ==================================
 
+TBA - changed from Jam.py v5.
+
 You can migrate your data to another database.
 
 For example, you developed your project with SQLite database and want to move to 
