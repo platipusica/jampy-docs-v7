@@ -15,4 +15,4 @@ develop a web application and deploy it.
    tutorial02/index
    tutorial03/index
    deployment
-   
+   admin

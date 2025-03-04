@@ -1,0 +1,11 @@
+admin
+=====
+
+
+.. image:: image.png
+   :target: ../_static/Jam.py.html_files/image.png
+
+
+.. raw:: html
+   :file: ../_static/Jam.py.html
+
