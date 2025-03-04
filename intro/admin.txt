@@ -1,9 +1,9 @@
-admin
-=====
+Understanding admin.sqlite
+==========================
 
 
-.. image:: image.png
-   :target: ../_static/Jam.py.html_files/image.png
+.. image:: ../_static/Jam.py.html_files/image.png
+	:alt: Jam.py language dialog
 
 
 .. raw:: html
