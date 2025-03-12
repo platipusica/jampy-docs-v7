@@ -75,24 +75,55 @@ Next is the new project dialog. Fill in:
 	:alt: New project setup
 
 When you press OK, the connection to the database will be checked, and in case 
-of failure 	an error message will be displayed.
+of failure an error message will be displayed.
 
-.. note::
 
-    Please note the following requirements:
-    
-    * To use a **FireBird** database, the python ``fdb`` library must be installed.
-    * **PostgreSQL** requires the ``psycopg2`` library.
-    * **MySQL** requires the ``MySQLdb`` library.
-    * **Oracle** requires the ``cx_Oracle`` library.
-    * **MSSQL** requires the ``pymssql`` library.
+Examples of database setups
+===========================
+
+.. admonition:: Adapted from `Jam.py Design Tips`_
+
+    Jam.py supports many different database servers. For example PostgreSQL_, MariaDB_, MySQL_, MSSQL_, Oracle_, Firebird_, IBM_, SQLite_ and SQLite with SQLCipher_.
+
+    If you are developing a small project or something you don't plan to deploy in
+    a production environment, SQLite is generally the best option as it doesn't
+    require running a separate server. However, SQLite has many differences from
+    other databases, so if you are working on something substantial, it's
+    recommended to develop with the same database that you plan on using in
+    production.
+
+
+    In addition to a database backend, we need to make sure the Python
+    database bindings are installed.
+
+    * If using PostgreSQL, the ``psycopg2`` or ``psycopg2-binary`` package is needed. 
+    * If using MySQL or MariaDB, the ``MySQLdb`` for Python 2.x is needed. For Python 3.x, the  ``mysql-connector-python`` and ``mysqlclient`` package is needed, as well as database client development files. 
+    * If using MSSQL, the ``pymssql`` is needed.
+    * If using Oracle, the `cx_Oracle`_ is needed, as well as Python headers (development files).
+    * If using SQLCipher_,  ``sqlcipher3-binary`` package is needed for Linux. There is a standalone DLL for Windows available.
+    * If using IBM_,  ``ibm_db`` and ``ibm_db_dbi`` package is needed.
+    * If using Firebird,  ``fdb`` package is needed.
     * To generate reports, **LibreOffice** must be installed.
+
+
+.. _Jam.py Design Tips: https://jampy-application-design-tips.readthedocs.io/
+.. _PostgreSQL: https://www.postgresql.org/
+.. _MariaDB: https://mariadb.org/
+.. _MySQL: https://www.mysql.com/
+.. _psycopg2: https://www.psycopg.org/
+.. _SQLite: https://www.sqlite.org/
+.. _cx_Oracle: https://oracle.github.io/python-cx_Oracle/
+.. _Oracle: https://www.oracle.com/
+.. _MSSQL: https://www.microsoft.com/en-au/sql-server/sql-server-downloads
+.. _Firebird: https://firebirdsql.org/
+.. _SQLCipher: https://github.com/sqlcipher
+.. _IBM: https://www.ibm.com/support/pages/downloading-ibm-db2-version-115-linux-unix-and-windows
     
 .. note::
 
     For a **SQLite** database, when an item field is deleted or renamed, or foreign
-    key is created, 
-    :doc:`Application builder </admin/index>`,
+    key is created, the  
+    :doc:`Application builder </admin/index>`
     creates a new table and copies records from the old one into it.
     
     For **SQLite** database, Jam.py doesn’t support importing of metadata into an 
