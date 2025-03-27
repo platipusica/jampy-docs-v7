@@ -1,5 +1,5 @@
 ===================================================================
-Howto upgrade an already created project to a new version of jampy?
+How to upgrade an already created project to a new version of jampy?
 ===================================================================
 
 To upgrade an existing V7 project to a new package you must update the package.
@@ -21,4 +21,6 @@ and run the command
   pip install --upgrade jam.py-v7
 
 
+To migrate v5 project to v7 project, please see 
+ :doc:`How to migrate v5 project to v7</how_to/how_to_migrate_to_v7>`
 

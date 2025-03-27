@@ -10,7 +10,7 @@ Use this dialog to setup details of an item. See
 	:alt: Details Dialog
 
 The **Details Dialog** has two panels. The left panel lists details that 
-have been added. The right panel have available detail items that could be added 
+have been added. The right panel havs available detail items that could be added 
 as details.
 
 To add a detail item as detail, select it in the right panel and use the **Left arrow** 

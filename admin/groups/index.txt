@@ -12,24 +12,23 @@ At the bottom of the page there are 3 buttons:
 * **Edit** - click this button to modify the selected group, the 
   corresponding Group Editor will appear.
 
-* **New** -  use this button to create a new group. After that the you have to 
-  select a new group type in the Dialog box that will appear.
+* **New** -  use this button to create a new item. 
+
+* **New Report Group** -  use this button to create a new report group. 
   
 .. image:: /admin/_images/group_type_jampy.png
 	:align: center
 	:alt: Group type
 
     
-There are groups of three types: Item group, Report group, Table group, see
-:doc:`task tree </programming/task_tree>`.
-For each of this group, its own editor will be shown:
+
+For each of the group, its own editor will be shown:
 
 .. toctree::
     :maxdepth: 1
     
     item_group_editor
     report_group_editor
-    table_group_editor
 
 	
 Use buttons in the right panel of the page to edit Client and Server modules of 

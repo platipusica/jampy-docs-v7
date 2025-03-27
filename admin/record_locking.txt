@@ -2,7 +2,7 @@
 Record locking
 ==============
 
-In Jam.py, application you can implement a record locking while users 
+In Jam.py application you can implement a record locking while users 
 concurrently edit a record.
 
 Jam.py uses optimistic locking model, also referred to as optimistic concurrency 

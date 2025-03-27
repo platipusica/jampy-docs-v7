@@ -29,6 +29,10 @@ The upper part of the **Detail Group Editor** have the following fields:
   the item it will be displayed there by default, otherwise you have to create 
   this field first.
 
+* **Record version** - by clicking on the button to the right of this attribute 
+  you can specify the field that will serve as :doc:`record locking </admin/record_locking>`
+  field for the item.
+
 * **Visible** - use this checkbox to set item's visible attribute. The value of 
   this attribute can be used in code on the client to create menu items and so 
   on.
@@ -55,6 +59,7 @@ The upper part of the **Detail Group Editor** have the following fields:
 * **Edit lock** - if this checkbox is checked, the application will use record 
   locking while users concurrently edit a record, see
   :doc:`Record locking </admin/record_locking>`
+  
   
   
 In the center part of the **Detail Group Editor** dialog there is a table 
