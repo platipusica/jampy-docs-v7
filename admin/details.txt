@@ -2,6 +2,12 @@
 Details
 =======
 
+The Detail in Jam.py V7 is any database table linked in a way of Master/Details
+relationship.
+To group the database tables logically, we might use the Details Group
+to "store" a detail of an item, as seen on below screenshot.
+
+
 To work with a detail of an item, expand a group node that owns the item and 
 select that item in the tree. In the center of the Application builder all 
 details of this item will be displayed.
@@ -32,11 +38,38 @@ The right panel of the page have following buttons:
   :doc:`create_inputs </refs/client/item/m_create_inputs>`
   method.
 
+* **Filters** - use this button to invoke the
+  :doc:`Filters Dialog <filters_dialog>`
+  to create, modify and delete item filters. See
+  :doc:`Filters </programming/data/filters>`.
+
+* **Details** - use this button to invoke the
+  :doc:`Details Dialog <details_dialog>`
+  to add or remove details linked to the item.
+
 * **Order** - use this button to invoke the
-  :doc:`Order Dialog <items/order_dialog>`
+  :doc:`Order Dialog <order_dialog>`
   to specify how records will be ordered by default. See
   :doc:`open </refs/client/item/m_open>`
   method
+
+* **Indices** - сlick this button to open the
+  :doc:`Indices Dialog <indices_dialog>`
+  to create and delete indices for the item database table.
+
+..
+    * **Foreign keys** - сlick this button to open the
+      :doc:`Foreign Keys Dialog <foreign_keys_dialog>`
+      to create foreign keys for the database table.
+
+* **Reports** - сlick this button to open the
+  :doc:`Reports Dialog <reports_dialog>`
+  to specify reports that could printed for the item. 
+  A new project has a function that can be used to create a drop-up 
+  button to print the reports.
+  
+* **Privileges** - click this button to open a dialog to configure the 
+  privileges assigned to user roles for this item.
   
 Use **Edit** button at the bottom of the page to change ``item_name`` or 
 ``caption`` of a `detail`.  
