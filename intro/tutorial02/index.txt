@@ -88,6 +88,9 @@ be displayed instead of the image placeholder.
 Double-click the video to capture the image. To clear an image, hold down the Ctrl 
 key and double-click the image, after that the video will be displayed.
 
+The image is not uploaded automaticaly to the server. It is up to developer to decide
+how to do this.
+
 
 Adding file field
 =================

@@ -158,7 +158,7 @@ Interface tab for Image field
   in the edit form. If it not specified, the height is auto
 
 * **Capture from camera** - if this checkbox is set, the user will be able to 
-  capture image from camera.
+  capture image from camera. The image is not automatically uploded to the server.
 
 * **Placeholder image** - double-click the image to set the placeholder image,
   that will be displayed when field image is not set.

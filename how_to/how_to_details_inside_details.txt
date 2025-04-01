@@ -14,6 +14,7 @@ the following code to the "Poll" client module:
 .. code-block:: js
 
     function on_edit_form_created(item) {
+        item.edit_options.form_header = false;
         var q = task.questions.copy();
         q.set_where({pool: item.id.value});
         q.view(item.edit_form.find('.edit-detail'));
