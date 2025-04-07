@@ -3,5 +3,7 @@ Version 7.0.50
 ==============
 
 New date-picker implemened - https://github.com/stefangabos/Zebra_Datepicker
+
 The Docs how use the plugin is TBA.
+
 Alternatively, please visit above GitHub page.

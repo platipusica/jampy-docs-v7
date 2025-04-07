@@ -7,9 +7,164 @@ a post request that has 'ext' added to url. For example:
 
 .. code-block:: html
 
-  http://example.com/ext/edit
+  http://your_jampy_app.com/ext/something
 
 When an web app on the server receives such request, it 
 generates the 
 :doc:`on_ext_request </refs/server/task/on_ext_request>`
 event
+
+
+For example, Jam.py application table ``account_transactions`` has a field ``actual_amount``.
+The application Task Module has:
+
+.. code-block:: py
+
+  def on_ext_request(task, request, params):
+      reqs = request.split('/')
+      if reqs[2] == 'expenses':
+          result = task.account_transactions.expenses(task, params)
+          return result
+
+The table ``account_transactions`` Task Server Module has:
+
+.. code-block:: py
+
+  from jam.common import cur_to_str
+
+  def expenses(item, params):
+      inv = item.task.account_transactions.copy()    
+      inv.open()
+      total = 0
+      for i in inv:
+          total += i.actual_amount.value
+  
+      total = cur_to_str(total)
+      return(total)
+
+
+Accessing the application with Curl command will reply with the result::
+
+    ...\> curl -k https://your_jampy_app.com/ext/expenses -d "[]" -H  "Content-Type: application/json"
+    {"result": {"status": 9, "data": "-$2590.01", "modification": 99}, "error": null}
+
+
+Using variables with Curl
+=========================
+
+On Demo application, if we add to Task Server Module:
+
+.. code-block:: py
+
+  def on_ext_request(task, request, params):
+      print(request, params)
+      reqs = request.split('/')
+      if reqs[2] == 'bla':
+          users = task.customers.copy(handlers=False)
+          users.set_where(id=params['id'])
+          users.open()
+          if users.rec_count == 1:
+                  return {
+                      'id': users.firstname.value,
+                      'firstname': users.firstname.value,
+                  }
+
+
+Passing parameters with Curl will reply with the result::
+
+    ...\> curl  http://localhost:8080/ext/bla -d '{"id": "2", "firstname": "Leonie"}' -H "Content-Type: application/json"
+    {"result": {"status": 9, "data": {"id": "Leonie", "firstname": "Leonie"}, "modification": 2014}, "error": null}
+
+
+Consuming data from the request
+===============================
+
+The same application from above can be accessed from some other Jam.py app with 
+Server Module:
+
+.. code-block:: py
+
+    try:
+        # For Python 3.0 and later
+        from urllib.request import urlopen
+    except ImportError:
+        # Fall back to Python 2's urllib2
+        from urllib2 import urlopen
+    import json
+    import time
+    
+    params = []
+    
+    def api_fetch(url, request, params):
+        try:
+            a = urlopen(url + '/' + request, data=str.encode(json.dumps(params)))
+            r = json.loads(a.read().decode())
+            return r['result']['data']
+        except:
+            return False
+    
+        
+    def send(item):
+        result= ''
+        res = []
+        request = 'expenses';
+        endpoint = 'https://your_jampy_app.com/ext';
+    
+        try:
+            # print('Req: ' + request)
+            result = api_fetch(endpoint, request, [])
+        except:
+            return False
+        if result:
+            # print(result)
+            res.append(
+                {
+                    # 'id': 1,            
+                    'request': request,
+                    'endpoint': endpoint,
+                    'value': result,
+                }
+            )
+            return res
+        else:
+            raise Exception('Could not connect!')
+
+Client Module for some virtual table with fields ``request``, ``endpoint``, and ``value``:
+
+.. code-block:: js
+
+    function on_view_form_created(item) {
+        item.view_options.open_item = false;
+        item.view_options.form_header = false;
+        item.open({open_empty: true});
+        item.paginate = false;
+        item.view_form.find("#edit-btn").hide();
+        item.view_form.find("#delete-btn").hide();
+        item.view_form.find("#new-btn").hide();    
+        item.alert('Fetching!');
+        item.server('send', function(records, err) {
+            item.disable_controls();
+            if (err) {
+                item.warning('Failed to fetch data: ' + err);
+            }
+            else {
+                if (records.length > 0) {
+                    records.forEach(function(rec) {
+                        item.append();
+                        // item.id.value = rec.id;            
+                        item.request.value = rec.request;
+                        item.endpoint.value = rec.endpoint;
+                        item.value.value = rec.value;
+                        item.post();
+                    });
+                    item.first();
+                    item.enable_controls();
+                    item.alert('Successfully fetched from API!');
+                }
+            }
+        });
+    }
+    
+    
+The  result will be displayed table with fetched ``value`` from ``endpoint`` 
+with the ``request``.
