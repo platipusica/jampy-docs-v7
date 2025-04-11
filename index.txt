@@ -9,6 +9,9 @@ Introduction
 Welcome to Jam.py! If you are new to Jam.py or no-code, low-code or more-code Web application development, this is the place to find documentation about the Jam.py V7. 
 
 The biggest difference to Jam.py V5 is routing support and Bootstrap 5, enabling modern support for mobile devices.
+In addition, the complete interface for Desktop or Mobile devices is driven by no-code approach. 
+Just select what is needed for any device and off you go.
+
 
 .. admonition:: Objectives
 
